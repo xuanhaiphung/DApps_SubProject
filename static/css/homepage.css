@@ -110,7 +110,7 @@ header {
     padding: 0 16px;
     align-items: center;
 }
-i{
+header i{
     color:#EAECEF;
     margin:0 4px;
     opacity: 0.6;
@@ -261,4 +261,64 @@ i{
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
+}
+.content2-container{
+    background-image: url(../img/homepage/background-content2.png);
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-color: #181A20;
+    background-color: #0B0E11;
+    margin-bottom: -24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.content2{
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin: auto;
+    max-width: 1248px;
+}
+.content2-main{
+    padding-top: 80px;
+    min-width: none;
+    display: flex;
+}
+.content2-main .left{
+    width: 560px;
+    margin-right: 106px;
+    
+}
+.content2-main .left h1{
+    color: #EAECEF;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+}
+.content2-main .right{
+    width: auto;
+}
+.content2-main .right img{
+    width: 534px;
+    height: 440px;
+
+}
+.sign-up{
+    margin-top: 48px;
+}
+.sign-up a{
+    display:flex;
+    align-items: center;
+    justify-content:start;
+}
+.sign-up a p{
+    margin: 0;
+    margin-left: 7px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
 }
