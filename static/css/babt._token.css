@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+#product {
+    width: 1350px;
+    height: 2083.45px;
+}
+
+#above {
+    width: 1350px;
+    height: 64px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    width: 1350px;
+    height: 1365.95px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://bin.bnbstatic.com/static/images/babt/bg1440.svg), linear-gradient(180deg, #06080B 79.61%, #76808F 126.01%);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat
+}
+
+#below {
+    width: 1350px;
+    height: 653.5px;
+    background-color: blue;
+}
+
+#menu_above {
+    width: 1318px;
+    background-color: brown;
+}
+
+#logo {
+    width: 135px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    width: 120px;
+    height: 24px;
+}
+
+#body_center {
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+#body_center img {
+    width: 306px;
+}
+
+#style {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    background: linear-gradient(211.03deg, #2B2F36 10.78%, rgba(43, 47, 54, 0) 54.07%, #2B2F36 108.18%);
+}
+
+#body_logo {
+    width: 306px;
+    height: 306px;
+    background-image: url(https://bin.bnbstatic.com/static/images/babt/logobg.svg);
+    background-size: cover
+}
