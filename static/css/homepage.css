@@ -85,7 +85,14 @@ html body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(234, 236, 239);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
 @media screen and (min-width: 767px){
     header {
         padding-left: 16px;
@@ -158,5 +165,22 @@ i{
 .flex-login{
     padding: 0 16px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+}
+.flex-login a{
+    margin: 0;
+    padding: 6px 12px;
+    max-height: 20px;
+}
+.flex-login .flex-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    background-color: rgb(252, 213, 53);
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 12px;
 }
