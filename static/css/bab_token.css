@@ -38,7 +38,11 @@ html {
 #below {
     width: 1350px;
     height: 653.5px;
-    background-color: blue;
+    display: flex;
+    background-color: rgb(24, 26, 32);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu_above {
@@ -253,4 +257,62 @@ html {
     font-weight: 400;
     line-height: 22px;
     color: rgba(118, 111, 111, 0.911);
+}
+
+#body_below {
+    width: 1248px;
+    height: 605.5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+#below_text {
+    width: 1200px;
+    height: 520.5px;
+}
+
+#below_colne {
+    width: 947.5px;
+    height: 520.5px;
+    display: flex;
+}
+
+.colne {
+    width: 189.44px;
+    height: 505.5px;
+}
+
+.below_title {
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.title_below {
+    font-size: 19px;
+    color: #e1e1e1;
+}
+
+.below_item {
+    width: 173.44px;
+    height: 450px;
+}
+
+.item {
+    display: inline-block;
+    width: 173.44px;
+    height: 17px;
+}
+
+a {
+    box-sizing: border-box;
+    margin: 0px 0px 12px;
+    min-width: 0px;
+    font-size: 14px;
+    color: #bbbbbbd5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
 }
