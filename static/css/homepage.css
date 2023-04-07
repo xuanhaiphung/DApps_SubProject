@@ -173,7 +173,9 @@ header i {
     border-right: 6px solid;
     border-right-color: #F0B90B;
 }
-
+.fa-sun, .fa-download, .fa-globe-africa{
+    opacity: 1;
+}
 .flex-login {
     padding: 0 16px;
     display: flex;
@@ -454,4 +456,31 @@ margin-top: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+.content2-bottom{
+    box-sizing: border-box;
+    margin: 0 -40px;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content2-bottom .text{
+    
+    padding: 0 40px;
+    width: 25%;
+    color: #EAECEF;
+}
+.content2-bottom .text h1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EAECEF;
+}
+.content2-bottom .text p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EAECEF;
 }
