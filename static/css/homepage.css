@@ -555,3 +555,42 @@ li.active button{
     outline: none;
     cursor: pointer;
 }
+.content4-container{
+    padding: 48px 0;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-color: #181A20;
+}
+.content4{
+    width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+}
+.content4 .title{
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EAECEF;
+}
+.title a{
+    color:#848E9C;
+}
+h1, p{
+    margin: 0;
+}
+.name-col{
+    font-size: 14px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -16px;
+    color: #848E9C;
+}
