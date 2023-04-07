@@ -670,3 +670,33 @@ a.crypto{
     color: #181A20;
     text-align: center;
 }
+
+.content5-container{
+    padding: 80px 120px;
+    background-color: #181A20;
+}
+@media screen and (min-width: 1023px){
+    .content5{
+        flex-direction: column;
+    }
+}
+.content5 {
+    display: flex;
+}
+.content5 .title{
+    margin: 0;
+    margin-bottom: 80px;  
+}
+.content5 .title .text1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EAECEF;
+}
+.content5 .title .text2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 16px;
+    color: #B7BDC6;
+}
