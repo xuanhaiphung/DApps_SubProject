@@ -484,3 +484,36 @@ margin-top: 8px;
     line-height: 24px;
     color: #EAECEF;
 }
+
+.content3-container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px 0;
+    background-color: #181A20;
+}
+.content3{
+    margin: 0;
+    margin: auto;
+    padding: 0 24px;
+    max-width: 1248px;
+}
+.content3 .slide{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+}
+.slide img{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 16px;
+}
