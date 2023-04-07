@@ -584,13 +584,51 @@ li.active button{
 }
 h1, p{
     margin: 0;
+    line-height: 24px;
 }
 .name-col{
-    font-size: 14px;
+    font-size: 14px !important;
     padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 -16px;
+    color: #848E9C;
+}
+a.crypto{
+    display: flex;
+    padding: 16px;
+    margin: 0 -16px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #EAECEF;
+}
+.crypto p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.coin{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #EAECEF;
+    width: 130px;
+}
+.coin img {
+    width: 32px;
+    height: 32px;
+}
+.coin #p1{
+    margin: 0 8px 0 16px;
+    font-weight: 500 !important;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.coin #p2{
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px;
     color: #848E9C;
 }
