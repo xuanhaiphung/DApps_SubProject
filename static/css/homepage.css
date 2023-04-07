@@ -609,22 +609,35 @@ a.crypto{
     font-size: 16px;
 }
 .coin{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
     display: flex;
-    justify-content: start;
     align-items: center;
-    color: #EAECEF;
-    width: 130px;
+    width: 120px;
 }
 .coin img {
     width: 32px;
     height: 32px;
 }
 .coin #p1{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
     margin: 0 8px 0 16px;
-    font-weight: 500 !important;
-    font-size: 16px;
-    line-height: 24px;
+    color: #EAECEF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    
 
+}
+.crypto p:nth-last-child(2){
+    color: rgb(246, 70, 93);
+}
+.crypto p.positive{
+    color: rgb(14, 203, 129);
 }
 .coin #p2{
     font-weight: 400 !important;
