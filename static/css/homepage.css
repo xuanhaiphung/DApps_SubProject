@@ -366,7 +366,7 @@ i {
     margin-top: 16px;
     display: flex;
 }
-.signup{
+.sign-up .signup{
 margin-top: 8px;
     width: 384px;
 }
@@ -644,4 +644,29 @@ a.crypto{
     font-size: 14px !important;
     line-height: 20px;
     color: #848E9C;
+}
+.content4 .signup{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 24px 0;
+    color: #EAECEF;
+}
+
+.content4 .get-start{
+    min-width: 160px;
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 500;
+    
+    background-color: #FCD535;
+    border-radius: 4px;
+    min-height: 24px;
+    padding: 12px 24px;
+    line-height: 24px;
+    margin: 0;
+    color: #181A20;
+    text-align: center;
 }
