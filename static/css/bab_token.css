@@ -73,6 +73,7 @@ html {
 }
 
 #style {
+    margin-left: 76.5%;
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -89,12 +90,12 @@ html {
     height: 306px;
     padding-top: 40px;
     display: flex;
-    justify-content: center;
 }
 
 #public {
     height: 306px;
     background-image: url(../img/bab_token/logobg.svg);
+    margin-left: 35.8%;
 }
 
 .ad {
@@ -263,6 +264,7 @@ html {
     width: 1248px;
     height: 605.5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 48px;
 }
@@ -270,6 +272,8 @@ html {
 #below_text {
     width: 1200px;
     height: 520.5px;
+    border-bottom: 0.005px solid rgba(79, 79, 79, 0.623);
+    display: flex;
 }
 
 #below_colne {
@@ -301,18 +305,75 @@ html {
 .item {
     display: inline-block;
     width: 173.44px;
-    height: 17px;
 }
 
 a {
     box-sizing: border-box;
-    margin: 0px 0px 12px;
+    margin: 0px 0px 11px;
     min-width: 0px;
-    font-size: 14px;
+    font-size: 14.1px;
     color: #bbbbbbd5;
     text-decoration: none;
 }
 
-a:hover {
+.below_item a:hover {
     color: rgb(255, 255, 255);
+}
+
+#Community {
+    width: 237px;
+    height: 504.5px;
+}
+
+#Community_icon {
+    margin-left: 17px;
+    width: 180px;
+}
+
+#below_icon {
+    height: 100px;
+}
+
+.table_icon {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.icon {
+    margin-right: 37px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: rgba(195, 195, 195, 0.696);
+}
+
+.clone_icon {
+    margin-right: 37px;
+}
+
+.icon:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.clone_icon a i {
+    font-size: 18.5px;
+}
+
+.clone_icon a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#end {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8f8f8fd1;
+    font-size: 14px;
 }
