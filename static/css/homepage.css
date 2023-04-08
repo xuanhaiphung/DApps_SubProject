@@ -785,6 +785,7 @@ a.crypto{
     grid-template-columns: repeat(5, 1fr);
     margin-top: 64px;
     gap: 25px;
+    margin-bottom: 24px;
 }
 
 .grid-card .card{
@@ -869,3 +870,5 @@ a.crypto{
     line-height: 20px;
     color: rgb(14, 203, 129);
 }
+
+/* //////////////////////////////////////////////////////////////// */
