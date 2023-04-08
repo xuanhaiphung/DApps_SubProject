@@ -19,8 +19,8 @@ html {
 #above {
     width: 1350px;
     height: 64px;
-    background-color: aqua;
     display: flex;
+    background-color: #181A20;
     justify-content: center;
 }
 
@@ -45,9 +45,15 @@ html {
     align-items: center;
 }
 
-#menu_above {
+#logo_item {
+    display: flex;
+}
+
+#menu {
     width: 1318px;
-    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
@@ -61,6 +67,228 @@ html {
 #logo img {
     width: 120px;
     height: 24px;
+}
+
+#logo a {
+    width: 120px;
+    height: 24px;
+}
+
+.flex-feature {
+    display: flex;
+}
+
+.menu_above {
+    display: flex;
+    width: 803.69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+.item_conten {
+    height: 100%;
+    margin-left: 5px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    min-width: 0;
+    display: flex;
+    font-size: 14px;
+    cursor: pointer;
+    color: #EAECEF;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.item_conten:hover p {
+    color: rgb(252, 213, 53);
+}
+
+.item_conten:hover i {
+    transform: rotate(180deg);
+    margin-top: 5px;
+}
+
+.item_conten i {
+    margin-left: 5px;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.vnd {
+    box-sizing: border-box;
+    min-width: 0;
+    display: flex;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #FCD535;
+    color: #1E2329;
+}
+
+.vnd:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -3px;
+    top: 2px;
+    border-left: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid;
+    border-right-color: #F0B90B;
+}
+
+#item_login {
+    font-family: inherit;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.item_login a {
+    max-height: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+#Log_In a {
+    display: inline-block;
+    width: 40px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    min-width: 0px;
+    font-size: 14.1px;
+    color: #bbbbbbd5;
+    text-decoration: none;
+}
+
+#Log_In a:hover {
+    color: rgb(252, 213, 53);
+}
+
+#Register a {
+    margin-left: 24px;
+    height: 32px;
+    width: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    background-color: rgb(252, 213, 53);
+    color: rgb(2, 2, 2);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#Register a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(252, 213, 53);
+}
+
+#icon_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#down {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.item_1 {
+    color: white;
+    padding: 0 8px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_1 i {
+    height: 9px;
+}
+
+.item_1 i:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_1 a:hover {
+    color: rgb(252, 213, 53);
+}
+
+.line_1 {
+    height: 2px;
+    width: 8px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.line_2 {
+    height: 2px;
+    width: 8px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.item_2 {
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EAECEF;
+    font-size: 14px;
+    height: 100%;
+}
+
+.item_2 p:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_2 i:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_1 i {
+    margin: 0;
+    color: #ffffff;
+}
+
+#icon_menu p,
+i {
+    cursor: pointer;
+}
+
+#icon_menu p {
+    margin: 0;
+}
+
+#icon_menu .item_2 .line_3 {
+    margin: 0 8px;
+    color: #5E6673;
+    cursor: none;
 }
 
 #body_center {
@@ -307,10 +535,10 @@ html {
     width: 173.44px;
 }
 
-a {
+.below_item a {
     box-sizing: border-box;
-    margin: 0px 0px 11px;
     min-width: 0px;
+    margin-bottom: 11px;
     font-size: 14.1px;
     color: #bbbbbbd5;
     text-decoration: none;
