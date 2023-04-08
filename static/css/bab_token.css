@@ -170,6 +170,11 @@ html {
     display: inline-block;
     width: 40px;
     margin-left: 40px;
+    box-sizing: border-box;
+    min-width: 0px;
+    font-size: 14.1px;
+    color: #bbbbbbd5;
+    text-decoration: none;
 }
 
 #Log_In a:hover {
@@ -188,6 +193,7 @@ html {
     color: rgb(2, 2, 2);
     border-radius: 4px;
     font-size: 14px;
+    text-decoration: none;
 }
 
 #Register a:hover {
@@ -529,9 +535,10 @@ i {
     width: 173.44px;
 }
 
-a {
+.below_item a {
     box-sizing: border-box;
     min-width: 0px;
+    margin-bottom: 11px;
     font-size: 14.1px;
     color: #bbbbbbd5;
     text-decoration: none;
