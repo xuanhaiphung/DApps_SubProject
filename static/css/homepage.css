@@ -605,7 +605,7 @@ a.crypto{
     color: #EAECEF;
 }
 .crypto p{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
 }
 .coin{
@@ -627,7 +627,7 @@ a.crypto{
     margin: 0 8px 0 16px;
     color: #EAECEF;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     white-space: nowrap;
     
@@ -645,6 +645,8 @@ a.crypto{
     line-height: 20px;
     color: #848E9C;
 }
+
+/* //////////////////////////////// */
 .content4 .signup{
     font-weight: 500;
     font-size: 24px;
@@ -704,7 +706,7 @@ a.crypto{
     margin-bottom: 80px;  
 }
 .content5 .title .text1{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
@@ -760,7 +762,7 @@ a.crypto{
 
 .h1{
     box-sizing: border-box;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
@@ -787,7 +789,6 @@ a.crypto{
 
 .grid-card .card{
     box-sizing: border-box;
-    margin: 0px 0px 16px;
     min-width: 0px;
     cursor: pointer;
     border-radius: 16px;
@@ -808,6 +809,7 @@ a.crypto{
 .card img{
     width:40px;
     margin-bottom: 16px;
+    border-radius: 50%;
 }
 .card .svg{
     box-sizing: border-box;
