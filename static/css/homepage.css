@@ -996,11 +996,13 @@ a.crypto {
     justify-content: space-between;
     margin-bottom: 64px;
 }
-.content8-container .top .left{}
-
 .svg-better-than{
     width: 1em;
     height: 1em;
     font-size: 24px;
     margin-left: 4px;
+}
+.content8-container .content8{
+    display: flex;
+    
 }
