@@ -328,7 +328,7 @@ i {
 
 .content2-main .left h1 {
     color: #EAECEF;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     margin: 0;
@@ -472,7 +472,7 @@ margin-top: 8px;
 }
 .content2-bottom .text h1{
     margin: 0;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
@@ -574,7 +574,7 @@ li.active button{
     align-items: center;
 }
 .title h1{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
@@ -650,6 +650,7 @@ a.crypto{
     font-size: 24px;
     line-height: 32px;
     margin: 24px 0;
+    margin-top: 40px;
     color: #EAECEF;
 }
 
@@ -703,7 +704,7 @@ a.crypto{
     margin-bottom: 80px;  
 }
 .content5 .title .text1{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
@@ -736,7 +737,7 @@ a.crypto{
     width: max-content;
 }
 .line .right .text1{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
@@ -750,4 +751,77 @@ a.crypto{
 .content5 .right img{
     width: 335px;
     height: 676px;
+}
+
+.content6-container{
+    padding: 80px 120px;
+    background-color:#181A20;
+}
+
+.h1{
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EAECEF;
+    margin: 0;
+}
+.h5{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 40;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #B7BDC6;
+}
+
+.content6 .grid-card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 64px;
+    gap: 25px;
+}
+
+.grid-card .card{
+    box-sizing: border-box;
+    margin: 0px 0px 16px;
+    min-width: 0px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    padding: 16px;
+    background-color: rgb(43, 49, 57);
+}
+.card a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+.card a .item{
+   margin-bottom: 16px;
+}
+
+.card img{
+    width:40px
+}
+.card svg{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: #848E9C;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    fill: #EAECEF;
+    fill: #848E9C;
+    width: 1em;
+    height: 1em;
+}
+.apr{
+    display: flex;
 }
