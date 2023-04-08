@@ -690,6 +690,13 @@ a.crypto{
 }
 .content5 .left{
     order: 1;width: 50%;
+    color: #EAECEF;
+}
+.content5 .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;order: 2;
 }
 .content5 .title{
     margin: 0;
@@ -709,31 +716,36 @@ a.crypto{
     color: #B7BDC6;
 }
 .content5 .line{
+    display: flex;
     margin-bottom: 64px;
 }
 .content5 .line .right{
     margin-left: 40px;
     float: left;
 }
+
 .line .left{
-    
+    width: auto;
     float: left;
+}
+.line .right{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: max-content;
 }
 .line .right .text1{
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 8px;
 }
 .line .right .text2{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-.content5 .right{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;order: 2;
+    color:#848E9C;
 }
 .content5 .right img{
     width: 335px;
