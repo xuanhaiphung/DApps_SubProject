@@ -45,7 +45,11 @@ html {
     align-items: center;
 }
 
-#menu_above {
+#logo_item {
+    display: flex;
+}
+
+#menu {
     width: 1318px;
     display: flex;
     justify-content: space-between;
@@ -65,18 +69,36 @@ html {
     height: 24px;
 }
 
+#logo a {
+    width: 120px;
+    height: 24px;
+}
+
 .flex-feature {
     display: flex;
 }
 
-.flex-menu {
+.menu_above {
     display: flex;
+    width: 803.69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+.item_conten {
+    height: 100%;
+    margin-left: 5px;
     padding: 0 8px;
     box-sizing: border-box;
-    margin: 0;
     min-width: 0;
     display: flex;
     font-size: 14px;
@@ -85,12 +107,25 @@ html {
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    height: 100%;
+}
+
+.item_conten:hover p {
+    color: rgb(252, 213, 53);
+}
+
+.item_conten:hover i {
+    transform: rotate(180deg);
+    margin-top: 5px;
+}
+
+.item_conten i {
+    margin-left: 5px;
+    font-size: 11px;
+    margin-bottom: 3px;
 }
 
 .vnd {
     box-sizing: border-box;
-    margin: 0;
     min-width: 0;
     display: flex;
     position: relative;
@@ -102,10 +137,6 @@ html {
     line-height: 16px;
     background-color: #FCD535;
     color: #1E2329;
-}
-
-.item-menu i:hover {
-    transform: rotate(180deg);
 }
 
 .vnd:before {
@@ -122,70 +153,101 @@ html {
     border-right-color: #F0B90B;
 }
 
-.flex-login {
-    padding: 0 16px;
+#item_login {
+    font-family: inherit;
+    width: 170px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.flex-login a {
-    margin: 0;
-    padding: 6px 12px;
+.item_login a {
     max-height: 20px;
+    display: flex;
+    margin-left: 20px;
 }
 
-.flex-login .flex-a {
+#Log_In a {
+    display: inline-block;
+    width: 40px;
+    margin-left: 40px;
+}
+
+#Log_In a:hover {
+    color: rgb(252, 213, 53);
+}
+
+#Register a {
+    margin-left: 24px;
+    height: 32px;
+    width: 77px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 52px;
     background-color: rgb(252, 213, 53);
-    color: rgb(24, 26, 32);
+    color: rgb(2, 2, 2);
     border-radius: 4px;
     font-size: 14px;
-    margin-left: 12px;
 }
 
-.flex-feature {
+#Register a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(252, 213, 53);
+}
+
+#icon_menu {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
-.flex-feature .item1 {
+#down {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.item_1 {
     color: white;
     padding: 0 8px;
-    height: 20px;
+    height: 18px;
     display: flex;
     flex-direction: column;
-    font-size: 11px;
+    font-size: 8px;
     justify-content: center;
     align-items: center;
 }
 
-.flex-feature .item1 i {
-    height: 10px;
+.item_1 i {
+    height: 9px;
+}
+
+.item_1 i:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_1 a:hover {
+    color: rgb(252, 213, 53);
 }
 
 .line_1 {
-    height: 50px;
+    height: 2px;
     width: 8px;
     border-top: 3px solid white;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
 .line_2 {
-    height: 50px;
+    height: 2px;
     width: 8px;
     border-bottom: 3px solid white;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
-.flex-feature .item2 {
+.item_2 {
     padding: 0 8px;
     display: flex;
     justify-content: space-between;
@@ -195,53 +257,32 @@ html {
     height: 100%;
 }
 
-.fa-globe-africa {
+.item_2 p:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_2 i:hover {
+    color: rgb(252, 213, 53);
+}
+
+.item_1 i {
     margin: 0;
     color: #ffffff;
 }
 
-.flex-feature p,
+#icon_menu p,
 i {
     cursor: pointer;
 }
 
-.flex-feature p {
+#icon_menu p {
     margin: 0;
 }
 
-.flex-feature .item2 .bar {
+#icon_menu .item_2 .line_3 {
     margin: 0 8px;
     color: #5E6673;
     cursor: none;
-}
-
-.gift {
-    position: relative;
-    top: 0;
-    z-index: 5;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgb(60, 38, 1);
-}
-
-.gift a {
-    margin: auto;
-    padding: 12px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gift p {
-    color: rgb(183, 189, 198);
-    margin: 0;
-    margin-right: 8px;
-}
-
-.gift i {
-    font-size: 15px;
-    margin: 0;
-    margin-right: 10px;
 }
 
 #body_center {
@@ -490,7 +531,6 @@ i {
 
 a {
     box-sizing: border-box;
-    margin: 0px 0px 11px;
     min-width: 0px;
     font-size: 14.1px;
     color: #bbbbbbd5;
