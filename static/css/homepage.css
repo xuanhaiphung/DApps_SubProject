@@ -792,7 +792,7 @@ a.crypto{
     cursor: pointer;
     border-radius: 16px;
     border: 2px solid transparent;
-    padding: 16px;
+    padding: 24px 16px;
     background-color: rgb(43, 49, 57);
 }
 .card a{
@@ -800,14 +800,28 @@ a.crypto{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 16px;
 }
 .card a .item{
    margin-bottom: 16px;
 }
 
 .card img{
-    width:40px
+    width:40px;
+    margin-bottom: 16px;
+}
+.card .svg{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    border-radius: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(71, 77, 87);
+    width: 32px;
+    height: 32px;
 }
 .card svg{
     box-sizing: border-box;
@@ -822,6 +836,34 @@ a.crypto{
     width: 1em;
     height: 1em;
 }
+.name-coin{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(234, 236, 239);
+    margin-bottom: 8px;
+    line-height: 28px;
+}
 .apr{
     display: flex;
+    margin-bottom: 16px;
+}
+
+.apr div:nth-child(1){
+    box-sizing: border-box;
+    margin: 0px 4px 0px 0px;
+    min-width: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(183, 189, 198);
+}
+.apr div:nth-child(2){
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(14, 203, 129);
 }
