@@ -173,9 +173,13 @@ header i {
     border-right: 6px solid;
     border-right-color: #F0B90B;
 }
-.fa-sun, .fa-download, .fa-globe-africa{
+
+.fa-sun,
+.fa-download,
+.fa-globe-africa {
     opacity: 1;
 }
+
 .flex-login {
     padding: 0 16px;
     display: flex;
@@ -366,12 +370,14 @@ i {
     margin-top: 16px;
     display: flex;
 }
-.sign-up .signup{
-margin-top: 8px;
+
+.sign-up .signup {
+    margin-top: 8px;
     width: 384px;
 }
+
 .sign-up .signup-with {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,13 +395,15 @@ margin-top: 8px;
     font-size: 16px !important;
     line-height: 24px;
 }
-.or{
+
+.or {
     display: flex;
     justify-content: space-between;
     margin: 16px 0;
     align-items: center;
 }
-.hr{
+
+.hr {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -405,7 +413,8 @@ margin-top: 8px;
     flex: 1;
     background-color: #474D57;
 }
-.or .mid{
+
+.or .mid {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -416,14 +425,16 @@ margin-top: 8px;
     margin-right: 8px;
     color: #848E9C;
 }
-.btn-plg{
+
+.btn-plg {
     box-sizing: border-box;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
-.btn-plg a{
+
+.btn-plg a {
     box-sizing: border-box;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -432,7 +443,7 @@ margin-top: 8px;
     font-weight: 500;
     text-align: center;
     padding: 10px 16px;
-    min-width:60px;
+    min-width: 60px;
     min-height: 24px;
     color: #EAECEF;
     border-radius: 4px;
@@ -443,7 +454,8 @@ margin-top: 8px;
     height: 48px;
     width: 100%;
 }
-.btn-plg a i{
+
+.btn-plg a i {
     display: flex;
     width: 32px;
     height: 40px;
@@ -451,33 +463,38 @@ margin-top: 8px;
     justify-content: center;
     font-size: 19px;
 }
-.btn-plg a p{
-    margin:0;
+
+.btn-plg a p {
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
 }
-.content2-bottom{
+
+.content2-bottom {
     box-sizing: border-box;
     margin: 0 -40px;
     padding: 80px 0;
     display: flex;
     justify-content: space-between;
 }
-.content2-bottom .text{
-    
+
+.content2-bottom .text {
+
     padding: 0 40px;
     width: 25%;
     color: #EAECEF;
 }
-.content2-bottom .text h1{
+
+.content2-bottom .text h1 {
     margin: 0;
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
 }
-.content2-bottom .text p{
+
+.content2-bottom .text p {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
@@ -485,19 +502,21 @@ margin-top: 8px;
     color: #EAECEF;
 }
 
-.content3-container{
+.content3-container {
     box-sizing: border-box;
     margin: 0;
     padding: 40px 0;
     background-color: #181A20;
 }
-.content3{
+
+.content3 {
     margin: 0;
     margin: auto;
     padding: 0 24px;
     max-width: 1200px;
 }
-.content3 .slide{
+
+.content3 .slide {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -508,7 +527,8 @@ margin-top: 8px;
     list-style: none;
     font-feature-settings: "tnum";
 }
-.slide img{
+
+.slide img {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -517,32 +537,36 @@ margin-top: 8px;
     width: 100%;
     border-radius: 16px;
 }
-.content3 ul{
+
+.content3 ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-.content3 ul li{
+.content3 ul li {
     display: block;
     position: relative;
     box-sizing: content-box;
     width: 8px;
     height: 3px;
     margin: 0 2px;
-    margin-right: 3px; 
+    margin-right: 3px;
     margin-left: 3px;
     padding: 0;
     text-align: center;
     text-indent: -999px;
 }
-li.active{
+
+li.active {
     width: 24px !important;
 }
-li.active button{
+
+li.active button {
     background-color: #FCD535 !important;
 }
-.content3 ul li button{
+
+.content3 ul li button {
     display: block;
     width: 100%;
     height: 8px;
@@ -555,38 +579,46 @@ li.active button{
     outline: none;
     cursor: pointer;
 }
-.content4-container{
+
+.content4-container {
     padding: 48px 0;
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
     background-color: #181A20;
 }
-.content4{
+
+.content4 {
     width: 1200px;
     margin: auto;
     padding: 0 24px;
 }
-.content4 .title{
+
+.content4 .title {
     margin-bottom: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.title h1{
+
+.title h1 {
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
 }
-.title a{
-    color:#848E9C;
+
+.title a {
+    color: #848E9C;
 }
-h1, p{
+
+h1,
+p {
     margin: 0;
     line-height: 24px;
 }
-.name-col{
+
+.name-col {
     font-size: 14px !important;
     padding: 16px;
     display: flex;
@@ -595,7 +627,8 @@ h1, p{
     margin: 0 -16px;
     color: #848E9C;
 }
-a.crypto{
+
+a.crypto {
     display: flex;
     padding: 16px;
     margin: 0 -16px;
@@ -604,11 +637,13 @@ a.crypto{
     align-items: center;
     color: #EAECEF;
 }
-.crypto p{
+
+.crypto p {
     font-weight: 300;
     font-size: 16px;
 }
-.coin{
+
+.coin {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -616,11 +651,13 @@ a.crypto{
     align-items: center;
     width: 120px;
 }
+
 .coin img {
     width: 32px;
     height: 32px;
 }
-.coin #p1{
+
+.coin #p1 {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -630,16 +667,19 @@ a.crypto{
     font-size: 16px;
     line-height: 20px;
     white-space: nowrap;
-    
+
 
 }
-.crypto p:nth-last-child(2){
+
+.crypto p:nth-last-child(2) {
     color: rgb(246, 70, 93);
 }
-.crypto p.positive{
+
+.crypto p.positive {
     color: rgb(14, 203, 129);
 }
-.coin #p2{
+
+.coin #p2 {
     font-weight: 400 !important;
     font-size: 14px !important;
     line-height: 20px;
@@ -647,7 +687,7 @@ a.crypto{
 }
 
 /* //////////////////////////////// */
-.content4 .signup{
+.content4 .signup {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -656,14 +696,14 @@ a.crypto{
     color: #EAECEF;
 }
 
-.get-start{
+.get-start {
     min-width: 160px;
     display: inline-flex;
     justify-content: center;
     align-self: center;
     font-size: 16px;
     font-weight: 500;
-    
+
     background-color: #FCD535;
     border-radius: 4px;
     min-height: 24px;
@@ -674,93 +714,108 @@ a.crypto{
     text-align: center;
 }
 
-.content5-container{
+.content5-container {
     padding: 80px 120px;
     background-color: #181A20;
 }
 
 
-@media screen and (min-width: 1023px){
-.content5 {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}}
+@media screen and (min-width: 1023px) {
+    .content5 {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
 .content5 {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.content5 .left{
-    order: 1;width: 50%;
+
+.content5 .left {
+    order: 1;
+    width: 50%;
     color: #EAECEF;
 }
-.content5 .right{
+
+.content5 .right {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;order: 2;
+    align-items: flex-start;
+    order: 2;
 }
-.content5 .title{
+
+.content5 .title {
     margin: 0;
-    margin-bottom: 80px;  
+    margin-bottom: 80px;
 }
-.content5 .title .text1{
+
+.content5 .title .text1 {
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     color: #EAECEF;
 }
-.content5 .title .text2{
+
+.content5 .title .text2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     margin-top: 16px;
     color: #B7BDC6;
 }
-.content5 .line{
+
+.content5 .line {
     display: flex;
     margin-bottom: 64px;
 }
-.content5 .line .right{
+
+.content5 .line .right {
     margin-left: 40px;
     float: left;
 }
 
-.line .left{
+.line .left {
     width: auto;
     float: left;
 }
-.line .right{
+
+.line .right {
     display: flex;
     align-items: start;
     justify-content: space-between;
     flex-direction: column;
     width: max-content;
 }
-.line .right .text1{
+
+.line .right .text1 {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
-.line .right .text2{
+
+.line .right .text2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color:#848E9C;
+    color: #848E9C;
 }
-.content5 .right img{
+
+.content5 .right img {
     width: 335px;
     height: 676px;
 }
 
-.content6-container{
+.content6-container {
     padding: 80px 120px;
-    background-color:#181A20;
+    background-color: #181A20;
 }
 
-.h1{
+.h1 {
     box-sizing: border-box;
     font-weight: 600;
     font-size: 40px;
@@ -768,7 +823,8 @@ a.crypto{
     color: #EAECEF;
     margin: 0;
 }
-.h5{
+
+.h5 {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -780,7 +836,7 @@ a.crypto{
     color: #B7BDC6;
 }
 
-.content6 .grid-card{
+.content6 .grid-card {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 64px;
@@ -788,7 +844,7 @@ a.crypto{
     margin-bottom: 24px;
 }
 
-.grid-card .card{
+.grid-card .card {
     box-sizing: border-box;
     min-width: 0px;
     cursor: pointer;
@@ -797,22 +853,25 @@ a.crypto{
     padding: 24px 16px;
     background-color: rgb(43, 49, 57);
 }
-.card a{
+
+.card a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.card a .item{
-   margin-bottom: 16px;
+
+.card a .item {
+    margin-bottom: 16px;
 }
 
-.card img{
-    width:40px;
+.card img {
+    width: 40px;
     margin-bottom: 16px;
     border-radius: 50%;
 }
-.card .svg{
+
+.card .svg {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -826,7 +885,8 @@ a.crypto{
     width: 32px;
     height: 32px;
 }
-.card svg{
+
+.card svg {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -839,7 +899,8 @@ a.crypto{
     width: 1em;
     height: 1em;
 }
-.name-coin{
+
+.name-coin {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
@@ -847,12 +908,13 @@ a.crypto{
     margin-bottom: 8px;
     line-height: 28px;
 }
-.apr{
+
+.apr {
     display: flex;
     margin-bottom: 16px;
 }
 
-.apr div:nth-child(1){
+.apr div:nth-child(1) {
     box-sizing: border-box;
     margin: 0px 4px 0px 0px;
     min-width: 0px;
@@ -861,7 +923,8 @@ a.crypto{
     line-height: 20px;
     color: rgb(183, 189, 198);
 }
-.apr div:nth-child(2){
+
+.apr div:nth-child(2) {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -872,3 +935,52 @@ a.crypto{
 }
 
 /* //////////////////////////////////////////////////////////////// */
+.content7-container {
+    padding: 80px 120px;
+    background-color: #181A20;
+}
+
+.content7 {
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.content7 .item {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    width: 33.33333333333333%;
+    
+}
+.content7 img{
+    margin: 0;
+    width: 336px;
+    height: 217px;
+}
+.content7 .item a {
+    margin: 0;
+    padding:40px 24px;
+    min-height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #EAECEF;
+    background-color:#0B0E11;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.content7 .item a .text1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.content7 .item a .text2 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
