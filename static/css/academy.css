@@ -374,8 +374,61 @@ html body {
 
 #about_right {
     width: 50%;
-    background-color: #4f70a2;
     height: 100%;
+    background-color: rgb(43, 47, 54);
+    display: flex;
+    align-items: center;
+}
+
+#about_featured {
+    margin-left: 32px;
+    width: 520px;
+    height: 490px;
+}
+
+#featured {
+    margin-bottom: 6px;
+}
+
+#featured b {
+    margin: 0px;
+    font-size: 15px;
+    color: rgb(230, 232, 234);
+}
+
+#img_featured img {
+    width: 520px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 12.4px;
+    border-bottom-right-radius: 12.4px;
+    height: 292px;
+    margin-bottom: 21px;
+}
+
+#about_featured a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(230, 232, 234);
+}
+
+#date_time {
+    margin: 16px 0px;
+    color: rgb(146, 154, 165);
+    display: flex;
+    align-items: center;
+}
+
+#time {
+    display: flex;
+    align-items: center;
+}
+
+.time_1 {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
 }
 
 #below {
