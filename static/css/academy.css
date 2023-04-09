@@ -50,6 +50,7 @@ html body {
     width: 1171.7px;
     height: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -135,9 +136,17 @@ html body {
 }
 
 #conten_right {
-    width: 300px;
+    width: 310px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    width: 48px;
+    display: flex;
+    justify-content: center;
 }
 
 .search_1 {
@@ -158,25 +167,29 @@ html body {
 }
 
 #item_login {
-    font-family: inherit;
-    width: 170px;
+    width: 150px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 6px 12px;
 }
 
 .item_login a {
     max-height: 20px;
     display: flex;
-    margin-left: 20px;
+}
+
+#Log_In {
+    display: flex;
 }
 
 #Log_In a {
+    font-family: inherit;
     display: inline-block;
-    width: 40px;
-    margin-left: 40px;
+    width: 50px;
     box-sizing: border-box;
     min-width: 0px;
-    font-size: 14.1px;
+    font-size: 15px;
     color: #bbbbbbd5;
     text-decoration: none;
 }
@@ -185,8 +198,13 @@ html body {
     color: rgb(252, 213, 53);
 }
 
+#Register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #Register a {
-    margin-left: 24px;
     height: 32px;
     width: 77px;
     display: flex;
@@ -206,22 +224,22 @@ html body {
 }
 
 #item_2 {
+    width: 78px;
     padding: 0 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#item_2 a i {
     color: #EAECEF;
     font-size: 14px;
     height: 100%;
 }
 
-#item_2 i {
+#item_2 a i {
     margin-left: 8px;
     margin-right: 8px;
-}
-
-#item_2 p:hover {
-    color: rgb(252, 213, 53);
 }
 
 #item_2 i:hover {
