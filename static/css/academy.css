@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+}
+
+html body {
+    font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
+    text-rendering: optimizelegibility;
+}
+
+#Academy {
+    width: 1350px;
+    height: 7847.05px;
+    background-color: rgb(98, 98, 98);
+}
+
+#above {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #181A20;
+    justify-content: center;
+}
+
+#menu {
+    width: 1302px;
+    height: 100%;
+    display: flex;
+}
+
+#logo_menu {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 114.3px;
+    height: 28.8px;
+}
+
+#logo a {
+    height: 100%;
+    color: rgb(252, 213, 53);
+    text-decoration: none;
+}
+
+#conten_item {
+    width: 1171.7px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#conten_left {
+    width: 646px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.button_item {
+    height: 100%;
+    display: flex;
+    padding: 0 4px;
+    box-sizing: border-box;
+    min-width: 0;
+    font-size: 15.1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_item a svg {
+    width: 24px;
+    height: 24px;
+    color: rgb(224, 224, 224);
+    margin-top: 3px;
+}
+
+.button:hover svg {
+    color: rgb(252, 213, 53);
+}
+
+.button:hover a {
+    color: rgb(252, 213, 53);
+}
+
+.button:hover i {
+    transform: rotate(180deg);
+    margin-top: 5px;
+}
+
+.button_item a {
+    cursor: pointer;
+    color: #EAECEF;
+    text-decoration: none;
+}
+
+.button i {
+    font-size: 11px;
+    margin-bottom: 3px;
+    color: rgb(132, 142, 156);
+}
+
+#start_here a {
+    height: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 86.92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    background-color: rgb(14, 203, 129);
+    color: rgb(219, 218, 218);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#start_here a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(14, 203, 129);
+}
+
+#conten_right {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_1 {
+    background-color: transparent;
+    border: none;
+    color: rgb(207, 207, 207);
+}
+
+.search_2 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    width: 1em;
+    height: 1em;
+}
+
+#item_login {
+    font-family: inherit;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.item_login a {
+    max-height: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+#Log_In a {
+    display: inline-block;
+    width: 40px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    min-width: 0px;
+    font-size: 14.1px;
+    color: #bbbbbbd5;
+    text-decoration: none;
+}
+
+#Log_In a:hover {
+    color: rgb(252, 213, 53);
+}
+
+#Register a {
+    margin-left: 24px;
+    height: 32px;
+    width: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    background-color: rgb(252, 213, 53);
+    color: rgb(2, 2, 2);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#Register a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(252, 213, 53);
+}
+
+#item_2 {
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EAECEF;
+    font-size: 14px;
+    height: 100%;
+}
+
+#item_2 i {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#item_2 p:hover {
+    color: rgb(252, 213, 53);
+}
+
+#item_2 i:hover {
+    color: rgb(252, 213, 53);
+}
+
+#gift {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb(60, 38, 1);
+    justify-content: center;
+}
+
+#center {
+    width: 100%;
+    height: 7182.36px;
+    background-color: rgb(20, 21, 26);
+}
+
+#below {
+    width: 100%;
+    height: 524.69px;
+    background: rgb(24, 26, 32);
+}
