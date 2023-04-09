@@ -1007,7 +1007,25 @@ a.crypto {
     display: flex;
 
 }
-
 .content8 .line{
     margin-bottom: 48px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+.content9-container{
+    padding: 80px 120px;
+    background-color: #181A20;
+}
+
+.content9-container .top{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.content9{
+    display: flex;
+}
+.foreground-content9{
+    background-image: url(../img/homepage/content9-leftground.webp);
 }
