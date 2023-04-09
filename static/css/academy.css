@@ -414,21 +414,51 @@ html body {
 }
 
 #date_time {
-    margin: 16px 0px;
+    margin: 5px 0px;
     color: rgb(146, 154, 165);
     display: flex;
     align-items: center;
 }
 
+#date {
+    font-size: 15.5px;
+}
+
 #time {
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 
 .time_1 {
     vertical-align: middle;
     width: 16px;
     height: 16px;
+    margin-right: 5px;
+}
+
+#time p {
+    font-size: 15px;
+}
+
+#intermediate {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0px 8px;
+    font-size: 16px;
+    height: 36px;
+    background-color: rgba(240, 185, 11, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+#dot {
+    background-color: rgb(240, 185, 11);
+    border-radius: 50%;
+    margin-inline-end: 8px;
+    height: 8px;
+    width: 8px;
 }
 
 #below {
