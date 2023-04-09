@@ -768,12 +768,12 @@ a.crypto {
     color: #B7BDC6;
 }
 
-.content5 .line {
+.line {
     display: flex;
     margin-bottom: 64px;
 }
 
-.content5 .line .right {
+.line .right {
     margin-left: 40px;
     float: left;
 }
@@ -796,6 +796,7 @@ a.crypto {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
+    color: #EAECEF;
 }
 
 .line .right .text2 {
@@ -1004,5 +1005,5 @@ a.crypto {
 }
 .content8-container .content8{
     display: flex;
-    
+
 }
