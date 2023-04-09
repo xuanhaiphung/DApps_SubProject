@@ -5,6 +5,7 @@ body {
 html body {
     font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
+    font-family: BinancePlex, Arial, sans-serif!important;
 }
 
 #Academy {
@@ -300,6 +301,59 @@ html body {
     width: 100%;
     height: 7182.36px;
     background-color: rgb(20, 21, 26);
+}
+
+#center_about {
+    width: 100%;
+    height: 585.19px;
+    display: flex;
+}
+
+#about_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#Blockchain_Crypto {
+    width: 517px;
+    height: 365px;
+    margin-right: 35px;
+}
+
+#all_about {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color: rgb(230, 232, 234);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#Blockchain {
+    color: rgb(230, 232, 234);
+    font-size: 61px;
+    line-height: 72px;
+    padding-bottom: 16px;
+}
+
+#line {
+    width: 40px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #EAECEF;
+    margin-bottom: 32px;
+}
+
+#text {
+    color: #EAECEF;
+}
+
+#about_right {
+    width: 50%;
+    background-color: #4f70a2;
+    height: 100%;
 }
 
 #below {
