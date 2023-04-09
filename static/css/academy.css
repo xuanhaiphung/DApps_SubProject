@@ -318,9 +318,9 @@ html body {
 }
 
 #Blockchain_Crypto {
-    width: 517px;
+    width: 515px;
     height: 365px;
-    margin-right: 35px;
+    margin-right: 37px;
 }
 
 #all_about {
@@ -347,7 +347,29 @@ html body {
 }
 
 #text {
+    line-height: 1.4;
     color: #EAECEF;
+    margin: 0px 0px 24px;
+}
+
+#about_start a {
+    height: 48px;
+    width: 107.72px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 21, 26);
+    border-radius: 4px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#about_start a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(255, 255, 255);
 }
 
 #about_right {
