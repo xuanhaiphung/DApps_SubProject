@@ -872,7 +872,7 @@ a.crypto {
     border-radius: 50%;
 }
 
-.card .svg {
+.content6 .card .svg {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -887,7 +887,7 @@ a.crypto {
     height: 32px;
 }
 
-.card svg {
+.content6 .card svg {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -1119,3 +1119,51 @@ a.crypto {
 }
 
 /* //////////////////////////////// */
+.content10-container{
+    padding: 80px 120px;
+    background-color: #181A20;
+}
+
+.content10-container .h1{
+    margin-bottom: 40px;
+}
+.content10{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.content10 .card{
+    box-sizing: border-box;
+    display: flex;
+    width: 33.33333333333333%;
+    padding: 24px;
+    
+}
+.content10 .svg{
+    width: 64px;
+    height: 64px;
+}
+.content10 .describe{
+    margin: 0;
+    margin-left: 24px;
+}
+.content10 .describe div:nth-child(1){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #EAECEF;
+}
+.content10 .describe div:nth-child(2){
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B7BDC6;
+    margin-top: 8px;
+}
+.content10 .describe a{
+    display: flex;
+    color: #F0B90B;
+    margin-top: 16px;
+    align-items: flex-start;
+}
