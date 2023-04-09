@@ -522,6 +522,9 @@ html body {
 }
 
 .beginner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
     width: 100%;
     height: 764px;
 }
@@ -635,23 +638,136 @@ html body {
 }
 
 .beginner_text {
-    width: 60px;
     align-items: center;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     padding: 0px 8px;
     font-size: 12px;
-    height: 28px;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
     background-color: rgba(46, 209, 145, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+.beginner_text_1 {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 8px;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    background-color: rgba(217, 48, 78, 0.3);
     color: rgb(255, 255, 255);
 }
 
 #dot_1 {
     background-color: rgb(2, 192, 118);
     border-radius: 50%;
+    margin-right: 5px;
     height: 6px;
     width: 6px;
+}
+
+#dot_2 {
+    background-color: rgb(217, 48, 78);
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 6px;
+    width: 6px;
+}
+
+#glossary {
+    position: relative;
+    padding: 24px;
+    width: 304px;
+    background-color: rgb(43, 47, 54);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px;
+}
+
+#glossary a {
+    text-decoration: none;
+}
+
+#body_glossary {
+    height: 282px;
+}
+
+#body_glossary a {
+    text-decoration: none;
+}
+
+#g_text {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1 solid #ffc970;
+    border-radius: 40px;
+    margin-bottom: 16px;
+    font-size: 11.5px;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(20, 21, 26);
+}
+
+#My_b {
+    color: rgb(230, 232, 234);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#line_1 {
+    background-color: rgb(240, 185, 11);
+    border-radius: 4px;
+    height: 4px;
+    margin-top: 16px;
+    width: 32px;
+}
+
+#text_1 {
+    color: rgb(230, 232, 234);
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+#full_definition {
+    align-items: center;
+    border: 1px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+}
+
+#full_definition {
+    text-decoration: none;
+}
+
+#full_definition svg {
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
 }
 
 #below {
