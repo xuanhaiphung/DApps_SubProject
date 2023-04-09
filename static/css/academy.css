@@ -529,6 +529,8 @@ html body {
 .clone_1 {
     width: 100%;
     height: 370px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .item_3 {
@@ -557,15 +559,34 @@ html body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 8px;
     position: absolute;
     border: 1 solid #ffc970;
     border-radius: 40px;
     left: 24px;
-    top: 12px;
-    font-size: 12px;
-    padding: 7px;
+    top: 13px;
+    font-size: 11.5px;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(20, 21, 26);
+}
+
+.notice_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1 solid #ffc970;
+    border-radius: 40px;
+    left: 120px;
+    top: 13px;
+    font-size: 11.5px;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
     background-color: rgb(250, 250, 250);
     color: rgb(20, 21, 26);
 }
