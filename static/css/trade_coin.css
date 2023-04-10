@@ -1,4 +1,77 @@
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-Light.woff2') format('woff2'), url('../fonts/IBMPlexSans-Light.otf') format('opentype');
+    font-weight: 200
+}
 
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-Light.woff2') format('woff2'), url('../fonts/IBMPlexSans-Light.otf') format('opentype');
+    font-weight: 300
+}
 
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-Regular.woff2') format('woff2'), url('../fonts/IBMPlexSans-Regular.otf') format('opentype');
+    font-weight: 400
+}
 
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-Medium.woff2') format('woff2'), url('../fonts/IBMPlexSans-Medium.otf') format('opentype');
+    font-weight: 500
+}
 
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-SemiBold.woff2') format('woff2'), url('../fonts/IBMPlexSans-SemiBold.otf') format('opentype');
+    font-weight: 600
+}
+
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-SemiBold.woff2') format('woff2'), url('../fonts/IBMPlexSans-SemiBold.otf') format('opentype');
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url('../fonts/IBMPlexSans-SemiBold.woff2') format('woff2'), url('../fonts/IBMPlexSans-SemiBold.otf') format('opentype');
+    font-weight: 800
+}
+
+body {
+    font-family: BinancePlex, Arial, sans-serif !important;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    display: block;
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(20, 21, 26);
+    overflow-x: hidden !important;
+}
+html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(20, 21, 26);
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden auto;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 100vh;
+}
