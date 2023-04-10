@@ -2,6 +2,42 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-weight: 300;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Light"), local("BinancePlex-Light"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Light.woff2"), url("/fonts/BinancePlex-Light.woff2") format("woff2");
+    font-feature-settings: "ss02";
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Regular"), local("BinancePlex Regular"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Regular.woff2"), url("/fonts/BinancePlex-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Medium"), local("BinancePlex Medium"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Medium.woff2"), url("/fonts/BinancePlex-Medium.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex SemiBold"), local("BinancePlex-SemiBold"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-SemiBold.woff2"), url("/fonts/BinancePlex-SemiBold.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
 html body {
     font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
@@ -543,6 +579,10 @@ html body {
     border-radius: 16px;
 }
 
+.item_3:hover {
+    box-shadow: 0 0 20px #00000059, 0 0 30px rgba(0, 0, 0, 0.184), 0 0 35px rgba(0, 0, 0, 0.058), 0 0 45px rgba(0, 0, 0, 0.03);
+}
+
 .item_3 a {
     text-decoration: none;
 }
@@ -550,6 +590,10 @@ html body {
 .conten_1 {
     height: 100%;
     position: relative;
+}
+
+#glossary:hover {
+    box-shadow: 0 0 20px #00000059, 0 0 30px rgba(0, 0, 0, 0.184), 0 0 35px rgba(0, 0, 0, 0.058), 0 0 45px rgba(0, 0, 0, 0.03);
 }
 
 .conten_1 img {
@@ -768,6 +812,146 @@ html body {
     margin-left: 5px;
     width: 16px;
     height: 16px;
+}
+
+#get_started {
+    width: 1136px;
+    height: 468.25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item_GS {
+    display: flex;
+    width: 1104px;
+    height: 356.25px;
+    border-radius: 20px;
+    background-color: #0B0E11;
+}
+
+#text_GS {
+    width: 450px;
+    height: 260px;
+    margin-top: 52.5px;
+    margin-left: 39px;
+}
+
+#earn {
+    font-size: 40px;
+    color: rgb(230, 232, 234);
+}
+
+#build {
+    color: rgb(230, 232, 234);
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#start_1 a {
+    margin-top: 42px;
+    width: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 213, 53);
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#start_1 a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(252, 213, 53);
+}
+
+#item_img {
+    position: relative;
+    width: 545px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#keep_eye {
+    width: 1136px;
+    height: 468.25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#clone_ke {
+    display: flex;
+    justify-content: space-between;
+    width: 1104px;
+    height: 320px;
+    margin-top: 55px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+}
+
+#text_ke {
+    width: 500px;
+    height: 260px;
+    margin-top: 52.5px;
+    margin-left: 39px;
+}
+
+#keep {
+    font-size: 32px;
+    color: #e6e6e6;
+}
+
+#every {
+    color: rgb(230, 232, 234);
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+#bitcoin_hp a {
+    height: 37px;
+    margin-top: 25px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+    border-radius: 8px;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+
+#bitcoin_hp a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(20, 21, 26);
+}
+
+#trading {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+#center_TD {
+    width: 1100px;
+    height: 550px;
+    max-width: 1136px;
+    padding: 20px 10px;
+}
+
+#conten_TD {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 #below {
