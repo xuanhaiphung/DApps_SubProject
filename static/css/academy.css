@@ -38,6 +38,10 @@ body {
     font-feature-settings: "ss02";
 }
 
+a {
+    text-decoration: none;
+}
+
 html body {
     font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
@@ -1203,6 +1207,138 @@ html body {
     max-width: 100%;
     position: relative;
     width: 100%;
+}
+
+#text_s1 {
+    order: 2;
+}
+
+#p2p {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: start;
+}
+
+#peer_to_peer {
+    font-size: 32px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#date_time_2 {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+#date_2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: rgb(240, 185, 11);
+}
+
+#time_3 {
+    margin-inline-start: 16px;
+    color: rgb(240, 185, 11);
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.time_3_1 {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#dot_3 {
+    background-color: rgb(2, 192, 118);
+    border-radius: 50%;
+    margin-right: 8px;
+    height: 6px;
+    width: 6px;
+}
+
+.beginner_text_2 {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+#s2 {
+    grid-area: s2 / s2 / s2 / s2;
+    background-color: rgb(43, 47, 54);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px;
+}
+
+#table_s2 {
+    flex-direction: column;
+    height: 100%;
+    align-items: start;
+    display: flex;
+}
+
+#text_s2 {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+    flex: 1 1 0%;
+}
+
+#nft_art {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#date_time_3 {
+    margin-left: 16px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+#date_3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: rgb(240, 185, 11);
+}
+
+#time_4 {
+    margin-inline-start: 8px;
+    color: rgb(240, 185, 11);
+    align-items: center;
+    display: flex;
+}
+
+.time_4_1 {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#dot_4 {
+    background-color: rgb(2, 192, 118);
+    border-radius: 50%;
+    margin-right: 8px;
+    height: 6px;
+    width: 6px;
+}
+
+.beginner_text_3 {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
 }
 
 #below {
