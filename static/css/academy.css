@@ -557,7 +557,7 @@ html body {
 }
 
 #glossary:hover {
-    box-shadow: 0 0 15px #00000059, 0 0 15px rgba(0, 0, 0, 0.184), 0 0 25px rgba(0, 0, 0, 0.058), 0 0 45px rgba(21, 21, 21, 0.03);
+    box-shadow: 0 0 20px #00000059, 0 0 30px rgba(0, 0, 0, 0.184), 0 0 35px rgba(0, 0, 0, 0.058), 0 0 45px rgba(0, 0, 0, 0.03);
 }
 
 .conten_1 img {
@@ -776,6 +776,55 @@ html body {
     margin-left: 5px;
     width: 16px;
     height: 16px;
+}
+
+#get_started {
+    width: 1136px;
+    height: 468.25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAECEF;
+}
+
+#item_GS {
+    width: 1104px;
+    height: 356.25px;
+    border-radius: 20px;
+    background-color: #0B0E11;
+}
+
+#text_GS {
+    width: 440px;
+    height: 260px;
+    margin-top: 52.5px;
+    margin-left: 39px;
+    background-color: #181A20;
+}
+
+#earn {
+    font-size: 39px;
+}
+
+#start_1 a {
+    height: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 86.92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    color: rgb(219, 218, 218);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#start_1 a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(14, 203, 129);
 }
 
 #below {
