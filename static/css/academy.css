@@ -1183,7 +1183,7 @@ html body {
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px;
 }
 
-#table_s1 {
+.table_s1 {
     grid-template-columns: minmax(auto, 368px) 1fr;
     row-gap: 0px;
     align-items: center;
@@ -1275,42 +1275,44 @@ html body {
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px;
 }
 
-#table_s2 {
+.table_s2 {
     flex-direction: column;
     height: 100%;
     align-items: start;
     display: flex;
+    width: 264px;
+    height: 331.19px;
 }
 
-#text_s2 {
+.text_s2 {
     padding-left: 16px;
     padding-right: 16px;
     margin-top: 16px;
     flex: 1 1 0%;
 }
 
-#nft_art {
+.nft_art {
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
 }
 
-#date_time_3 {
+.date_time_3 {
     margin-left: 16px;
     justify-content: start;
     align-items: center;
     display: flex;
 }
 
-#date_3 {
+.date_3 {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.45;
     color: rgb(240, 185, 11);
 }
 
-#time_4 {
+.time_4 {
     margin-inline-start: 8px;
     color: rgb(240, 185, 11);
     align-items: center;
@@ -1324,7 +1326,7 @@ html body {
     height: 24px;
 }
 
-#dot_4 {
+.dot_4 {
     background-color: rgb(2, 192, 118);
     border-radius: 50%;
     margin-right: 8px;
@@ -1339,6 +1341,38 @@ html body {
     display: flex;
     font-size: 14px;
     color: rgb(255, 255, 255);
+}
+
+#s3 {
+    grid-area: s3 / s3 / s3 / s3;
+    background-color: rgb(43, 47, 54);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px
+}
+
+#s4 {
+    grid-area: s4 / s4 / s4 / s4;
+    background-color: rgb(43, 47, 54);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 1px, rgb(0 0 0 / 8%) 0px 7px 14px, rgb(20 21 26 / 8%) 0px 3px 6px;
+}
+
+#img_s4 {
+    order: 2;
+}
+
+#img_2 {
+    padding-top: 90%;
+    background-image: url(../img/academy/f77235707451429697aebd5261099b95.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: block;
+    height: 0px;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 #below {
