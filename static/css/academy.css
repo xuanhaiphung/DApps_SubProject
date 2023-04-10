@@ -530,7 +530,7 @@ html body {
     margin-bottom: 40px;
 }
 
-#latest_r {
+.latest_r {
     margin-top: 2.2px;
     font-size: 19.5px;
     color: rgb(230, 232, 234);
@@ -544,9 +544,7 @@ html body {
     font-size: 11px;
 }
 
-#see_LR a {
-    width: 175px;
-    height: 24px;
+.see_LR a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -950,14 +948,14 @@ html body {
     justify-content: center;
 }
 
-#center_TD {
+.center_TD {
     width: 1100px;
     height: 550px;
     max-width: 1136px;
     padding: 20px 10px;
 }
 
-#conten_TD {
+.conten_TD {
     width: 100%;
     height: 28px;
     display: flex;
@@ -1576,6 +1574,14 @@ html body {
     margin-left: 5px;
     width: 16px;
     height: 16px;
+}
+
+.essentials {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }
 
 #below {
