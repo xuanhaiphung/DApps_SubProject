@@ -1268,3 +1268,26 @@ footer .links a {
     color: #848E9C;
     line-height: 20px;
 }
+.chat-container {
+    display: flex;
+    position: fixed;
+    right: 24px;
+    bottom: 16px;
+    cursor: pointer;
+    border-radius: 32px;
+    background: #FCD535;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.chat-container .chat-text {
+    display: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #1E2329;
+}
+.chat-container:hover .chat-text{
+    display: block;
+}
