@@ -840,7 +840,7 @@ html body {
 
 #earn {
     font-size: 40px;
-    color: #a5a5a5;
+    color: rgb(230, 232, 234);
 }
 
 #build {
@@ -851,7 +851,6 @@ html body {
 }
 
 #start_1 a {
-    height: 50x;
     margin-top: 42px;
     width: 197px;
     display: flex;
@@ -895,41 +894,41 @@ html body {
 }
 
 #text_ke {
-    width: 450px;
+    width: 500px;
     height: 260px;
     margin-top: 52.5px;
     margin-left: 39px;
 }
 
 #keep {
-    font-size: 30px;
-    color: #a5a5a5;
+    font-size: 32px;
+    color: #e6e6e6;
 }
 
 #every {
     color: rgb(230, 232, 234);
-    line-height: 1.4;
-    font-size: 20px;
-    margin-top: 16px;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: 18px;
 }
 
 #bitcoin_hp a {
-    height: 50x;
-    margin-top: 42px;
-    width: 197px;
+    height: 37px;
+    margin-top: 25px;
+    width: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(252, 213, 53);
-    color: rgb(24, 26, 32);
-    border-radius: 4px;
-    font-size: 16px;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+    border-radius: 8px;
+    font-size: 13.5px;
     text-decoration: none;
 }
 
 #bitcoin_hp a:hover {
     box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
-    background-color: rgb(252, 213, 53);
+    background-color: rgb(20, 21, 26);
 }
 
 #below {
