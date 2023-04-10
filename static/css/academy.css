@@ -83,7 +83,7 @@ html body {
     text-decoration: none;
 }
 
-#conten_item {
+#item {
     width: 1171.7px;
     height: 100%;
     display: flex;
@@ -952,6 +952,112 @@ html body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+}
+
+.beginner_1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+}
+
+#topics_difficulty {
+    padding-top: 20px;
+    padding-bottom: 56px;
+    height: 1197.38px;
+}
+
+#body_TD {
+    padding: 0px 16px;
+    width: 1104px;
+    height: 1085.38px;
+    margin: auto;
+}
+
+#text_tp {
+    font-weight: 400;
+    line-height: 1.45;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#topics {
+    flex-direction: row;
+    align-items: start;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+#text_chose {
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+.text_2 {
+    margin-inline: 16px 0px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(43, 47, 54);
+    border-radius: 100px;
+    color: rgb(174, 180, 188);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 14.5px;
+    padding: 4px 16px;
+}
+
+#chose_dl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#difficulty {
+    font-weight: 400;
+    line-height: 1.45;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#text_3 {
+    margin-inline: 16px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 8px;
+    font-size: 12px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid rgba(46, 209, 145, 0.3);
+    cursor: pointer;
+    user-select: none;
+}
+
+#item_4 {
+    background-color: rgb(2, 192, 118);
+    border-radius: 50%;
+    margin-inline-end: 8px;
+    height: 6px;
+    width: 6px;
+}
+
+#item_5 {
+    font-weight: 400;
+    line-height: 1.45;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+#item_6 {
+    margin-inline-start: 8px;
+    color: rgb(255, 255, 255);
 }
 
 #below {
