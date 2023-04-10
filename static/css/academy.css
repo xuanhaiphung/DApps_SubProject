@@ -886,6 +886,7 @@ html body {
 
 #clone_ke {
     display: flex;
+    justify-content: space-between;
     width: 1104px;
     height: 320px;
     margin-top: 55px;
