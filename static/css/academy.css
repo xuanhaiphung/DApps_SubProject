@@ -2,6 +2,42 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-weight: 300;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Light"), local("BinancePlex-Light"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Light.woff2"), url("/fonts/BinancePlex-Light.woff2") format("woff2");
+    font-feature-settings: "ss02";
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Regular"), local("BinancePlex Regular"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Regular.woff2"), url("/fonts/BinancePlex-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex Medium"), local("BinancePlex Medium"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-Medium.woff2"), url("/fonts/BinancePlex-Medium.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: "Binance Plex";
+    font-style: normal;
+    src: local("Binance Plex SemiBold"), local("BinancePlex-SemiBold"), url("https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-SemiBold.woff2"), url("/fonts/BinancePlex-SemiBold.woff2") format("woff2");
+    font-display: swap;
+    font-feature-settings: "ss02";
+}
+
 html body {
     font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
@@ -834,8 +870,66 @@ html body {
 }
 
 #item_img {
-    width: 572px;
-    height: 356.25px;
+    position: relative;
+    width: 545px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#keep_eye {
+    width: 1136px;
+    height: 468.25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#clone_ke {
+    display: flex;
+    width: 1104px;
+    height: 320px;
+    margin-top: 55px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+}
+
+#text_ke {
+    width: 450px;
+    height: 260px;
+    margin-top: 52.5px;
+    margin-left: 39px;
+}
+
+#keep {
+    font-size: 30px;
+    color: #a5a5a5;
+}
+
+#every {
+    color: rgb(230, 232, 234);
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#bitcoin_hp a {
+    height: 50x;
+    margin-top: 42px;
+    width: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 213, 53);
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#bitcoin_hp a:hover {
+    box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
+    background-color: rgb(252, 213, 53);
 }
 
 #below {
