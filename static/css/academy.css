@@ -788,6 +788,7 @@ html body {
 }
 
 #item_GS {
+    display: flex;
     width: 1104px;
     height: 356.25px;
     border-radius: 20px;
@@ -830,6 +831,11 @@ html body {
 #start_1 a:hover {
     box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
     background-color: rgb(252, 213, 53);
+}
+
+#item_img {
+    width: 572px;
+    height: 356.25px;
 }
 
 #below {
