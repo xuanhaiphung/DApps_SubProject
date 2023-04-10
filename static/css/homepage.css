@@ -600,7 +600,10 @@ li.active button {
     justify-content: space-between;
     align-items: center;
 }
-
+.content4 .title a{
+    display: flex;
+    align-items: center;
+}
 .title h1 {
     font-weight: 500;
     font-size: 40px;
@@ -1005,6 +1008,7 @@ a.crypto {
     height: 1em;
     font-size: 24px;
     margin-left: 4px;
+    color:#848E9C;
 }
 
 .content8-container .content8 {
