@@ -785,7 +785,6 @@ html body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EAECEF;
 }
 
 #item_GS {
@@ -796,35 +795,41 @@ html body {
 }
 
 #text_GS {
-    width: 440px;
+    width: 450px;
     height: 260px;
     margin-top: 52.5px;
     margin-left: 39px;
-    background-color: #181A20;
 }
 
 #earn {
-    font-size: 39px;
+    font-size: 40px;
+    color: #a5a5a5;
+}
+
+#build {
+    color: rgb(230, 232, 234);
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
 }
 
 #start_1 a {
-    height: 32px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 86.92px;
+    height: 50x;
+    margin-top: 42px;
+    width: 197px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 52px;
-    color: rgb(219, 218, 218);
+    background-color: rgb(252, 213, 53);
+    color: rgb(24, 26, 32);
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
 }
 
 #start_1 a:hover {
     box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
-    background-color: rgb(14, 203, 129);
+    background-color: rgb(252, 213, 53);
 }
 
 #below {
