@@ -346,19 +346,20 @@ i {
 .children-container{
     display: flex;
     flex: 1 1 0%;
+    margin: 0px;
     margin-right: 24px;
     margin-left: 4px;
     height: 48px;
     border-right-width: 1px;
     box-sizing: border-box;
-    margin: 0px;
+    
     min-width: 0px;
     display: flex;
     flex-direction: column;
     padding-right: 24px;
     height: auto;
     justify-content: space-around;
-    border-right: 0px solid rgb(37, 41, 48);
+    border-right: 1px solid rgb(37, 41, 48);
 }
 .coin-item{
     box-sizing: border-box;
@@ -419,6 +420,22 @@ a{
     text-decoration: underline;
     line-height: 17px;
     font-size: 12px;
+}
+.children-container2{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.children-container2 .up{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: rgb(14, 203, 129);
+}
+.children-container2 .down{
+    font-size: 12px;
+    color: rgb(234, 236, 239);
+    line-height: inherit;
 }
 .subHeader-left .right{
     flex: 1 1 0%;
