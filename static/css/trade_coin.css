@@ -103,6 +103,17 @@ html {
 }
 .subHeader{
     grid-area: subHeader;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 26, 30);
+    grid-area: subHeader / subHeader / subHeader / subHeader;
+    font-size: 14px;
+    color: rgb(234, 236, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .orderbook{
     grid-area: orderbook;
@@ -242,7 +253,7 @@ header i {
     margin-left: 12px;
 }
 .flex-empty {
-    width: 108.77px;
+    flex: 1;
 }
 .flex-feature {
     display: flex;
@@ -291,4 +302,134 @@ i {
     margin: 0 8px;
     color: #5E6673;
     cursor: none;
+}
+
+.subHeader-flex{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.subHeader-left{
+    min-width: 0px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0px;
+    flex: 1 1 0%;
+}
+
+.subHeader-right{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.subHeader-left .left{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+    flex: 0 0 auto;
+}
+.children-container{
+    display: flex;
+    flex: 1 1 0%;
+    margin-right: 24px;
+    margin-left: 4px;
+    height: 48px;
+    border-right-width: 1px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    height: auto;
+    justify-content: space-around;
+    border-right: 0px solid rgb(37, 41, 48);
+}
+.coin-item{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    flex-wrap: nowrap;
+}
+.coin-item .coin-title{
+    box-sizing: border-box;
+    margin: 0px 4px 0px 0px;
+    min-width: 0px;
+    color: rgb(234, 236, 239);
+    font-size: 20px;
+    font-weight: 500;
+}
+.coin-item .btn-pow{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 4px;
+    min-width: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 2px;
+    font-weight: 400;
+    color: rgb(240, 185, 11);
+    background-color: rgb(54, 50, 29);
+    cursor: pointer;
+    display: inline-block;
+}
+.sub-coin-item{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    line-height: 17px;
+    font-size: 12px;
+}
+.sub-coin-item svg{
+    box-sizing: border-box;
+    margin: 0px 4px 0px 0px;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    font-size: 16px;
+    fill: rgb(132, 142, 156);
+    width: 1em;
+    height: 1em;
+}
+a{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    text-decoration: underline;
+    line-height: 17px;
+    font-size: 12px;
+}
+.subHeader-left .right{
+    flex: 1 1 0%;
+    flex-flow: row nowrap;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-width: 0px;
+    overflow: hidden;
+
 }
