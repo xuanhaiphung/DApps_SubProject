@@ -109,7 +109,6 @@ html {
     height: 100%;
     width: 100%;
     background-color: rgb(22, 26, 30);
-    grid-area: subHeader / subHeader / subHeader / subHeader;
     font-size: 14px;
     color: rgb(234, 236, 239);
     padding-top: 10px;
