@@ -648,3 +648,21 @@ i {
     min-width: 24px;
     box-sizing: border-box;
 }
+.orderbook-tbheader{
+    display: flex;
+    margin: 0px 16px 6px 16px;
+}
+.orderbook-tbheader .content{
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(132, 142, 156);
+}
+.orderbook-tbheader .item{
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
