@@ -7,11 +7,11 @@
 DApps là một dự án webapp đang trong quá trình phát triển và chưa hoàn chỉnh, cũng là phần mềm mã nguồn mở được phát triển bởi BobbiBao và Cuong7nui. Dự án hiện là một sàn giao dịch tiền điện tử (Cryptocurrency Exchange), hướng đến mục tiêu cung cấp một ứng dụng web để giúp các nhà phát triển DApps (Decentralized Applications) dễ dàng triển khai và quản lý các smart contract của mình trên các nền tảng blockchain phổ biến như Ethereum, Binance Smart Chain, Polygon, và nhiều hơn nữa.
 
 ## Link Demo
-Hiện chỉ có 4 trang đã được tạo nhưng chưa hoàn thiện, đang phát triển từng giờ:
-Homepage: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/homepage.html).
-Bab token: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/bab_token.html).
-Academy: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/academy.html).
-Trade coin: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/trade_coin.html).
+Hiện chỉ có 4 trang đã được tạo nhưng chưa hoàn thiện, đang phát triển từng giờ:  
+Homepage: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/homepage.html).  
+Bab token: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/bab_token.html).  
+Academy: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/academy.html).  
+Trade coin: Bạn có thể truy cập vào [link demo của dự án tại đây](https://bobbibao.github.io/DApps_SubProject/templates/trade_coin.html).  
 
 ## Các tính năng
 

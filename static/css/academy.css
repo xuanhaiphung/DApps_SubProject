@@ -49,23 +49,27 @@ html body {
 }
 
 #Academy {
-    width: 1350px;
+    width: 100%;
     height: 7847.05px;
     background-color: rgb(98, 98, 98);
 }
 
 #above {
     width: 100%;
-    height: 80px;
+    padding-top: 16.42px;
+    padding-bottom: 16.42px;
     display: flex;
     background-color: #181A20;
     justify-content: center;
 }
 
 #menu {
-    width: 1302px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 #logo_menu {
@@ -98,12 +102,11 @@ html body {
 #conten_item {
     display: flex;
     align-items: center;
-    width: 1300px;
     justify-content: space-between;
+    flex: 1 1 0%;
 }
 
 #conten_left {
-    width: 646px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,6 +215,10 @@ html body {
     fill: currentcolor;
     width: 1em;
     height: 1em;
+}
+
+.search_2:hover {
+    color:
 }
 
 #item_login {
