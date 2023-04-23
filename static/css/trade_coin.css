@@ -666,3 +666,67 @@ i {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.orderlist-container{
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+.resize-triggers {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    animation: 1ms resizeanim;
+    visibility: hidden;
+    opacity: 0;
+}
+.orderbook-row-container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex: 1 1 0%;
+    height: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+    animation: 0.3s ease-out 0s 1 normal none running none;
+    overflow: hidden
+}
+.row-content{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    line-height: 20px;
+    display: flex;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    line-height: 22px;
+    cursor: pointer;
+}
+.ask-light{
+    color: rgb(246, 70, 93);
+}
+.row-content .text{
+    margin-left: 4px;
+    font-size: 12px;
+    margin-left: 0px;
+    flex: 1 1 0%;
+    text-align: right;
+    color: rgb(183, 189, 198);
+    cursor: pointer;
+}
