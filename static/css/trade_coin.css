@@ -518,45 +518,19 @@ i {
 .orderbook >div:not(:hover){
     overflow: hidden;
 }
-@media screen and (min-width: 767px){
-.css-12qarqx .orderbook-header {
+
+.orderbook-header {
+    display: flex;
     -webkit-box-align: center;
     align-items: center;
     margin-left: 12px;
     margin-right: 16px;
     margin-bottom: 8px;
     position: relative;
-    -webkit-box-pack: initial;
-    justify-content: initial;
-}}
-.orderbook-header {
-    display: flex;
-    -webkit-box-align: initial;
-    align-items: initial;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    position: initial;
-    justify-content: space-around;
 }
 .bookleft{
     display: flex;
     align-items: center;
-}
-.bookright{
-    display: flex;
-    -webkit-box-pack: end;
-    justify-content: flex-end;
-    right: 0px;
-    position: absolute;
-    flex: 0 0 auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    -webkit-box-align: initial;
-    align-items: initial;
-    -webkit-box-pack: initial;
-    justify-content: initial;
 }
 .bookleft button{
     height: 24px;
@@ -600,4 +574,77 @@ i {
     fill: currentcolor;
     width: 1em;
     height: 1em;
+}
+
+.bookright{
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    right: 0px;
+    position: absolute;
+    flex: 0 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    -webkit-box-align: initial;
+    align-items: initial;
+    -webkit-box-pack: initial;
+    justify-content: initial;
+}
+.bookright-item{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    display: inline-block;
+    outline: none; 
+    display: flex;
+}
+.bookright-item .child{
+    height: 24px;
+    padding-left: 8px;
+    width: auto;
+    font-size: 12px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(183, 189, 198);
+    min-width: 40px;
+    height: 32px;
+    padding-left: 4px;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 12px;
+    margin-right: -4px;
+}
+.bookright-item svg{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 5px;
+    min-width: 0px;
+    font-size: 16px;
+    fill: currentcolor;
+    color: rgb(132, 142, 156);
+    width: 1em;
+    height: 1em;
+}
+.child-right{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(94, 102, 115);
+    height: 32px;
+    padding-left: 4px;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 14px;
+    margin-right: -8px;
+    margin-left: 4px;
+    min-width: 24px;
+    box-sizing: border-box;
 }
