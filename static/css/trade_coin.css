@@ -330,7 +330,6 @@ i {
 
 .subHeader-right{
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
 }
 
@@ -412,7 +411,7 @@ i {
     width: 1em;
     height: 1em;
 }
-a{
+.subHeader a{
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -484,4 +483,23 @@ a{
     display: flex;
     font-size: 12px;
     color: rgb(234, 236, 239);
+}
+.guide-left{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    color: rgb(132, 142, 156);
+    font-size: 12px;
+    cursor: pointer;
+}
+.guide-left svg{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    font-size: 16px;
+    fill: rgb(132, 142, 156);
+    width: 1em;
+    height: 1em;
 }
