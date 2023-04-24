@@ -218,7 +218,7 @@ html body {
 }
 
 .search_2:hover {
-    color:
+    color: rgb(252, 213, 53);
 }
 
 #item_login {
@@ -1595,4 +1595,90 @@ html body {
     width: 100%;
     height: 524.69px;
     background: rgb(24, 26, 32);
+}
+
+#blockchain_1 {
+    max-width: 1136px;
+    padding: 56px 16px;
+    margin: auto;
+}
+
+#check {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    grid-template-rows: auto;
+}
+
+#clone_check {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+    color: rgb(255, 255, 255);
+}
+
+#item_check {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+    display: grid;
+    gap: 32px;
+    grid-template-rows: auto;
+}
+
+#img_check img {
+    width: 224px;
+    height: 244px;
+}
+
+#text_check h2 {
+    margin-bottom: 16px;
+    color: rgb(230, 232, 234);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#text_check p {
+    color: rgb(230, 232, 234);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+#check_out {
+    align-items: center;
+    border: 1px solid rgb(43, 47, 54);
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+    white-space: nowrap;
+    outline: 0px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+}
+
+#clone_check_1 {
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+    color: rgb(255, 255, 255);
+}
+
+#item_check_1 {
+    padding-top: 48px;
+    min-height: 250px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+    background-image: url(../img/academy/illus-crypto-quiz.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 263px;
+    color: rgb(255, 255, 255);
 }
