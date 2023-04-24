@@ -790,7 +790,6 @@ i {
 /* ---------------------------------------------------------------- */
 .market-header{
     padding: 0px 16px;
-    overflow: hidden;
 }
 .market-header-up-container{
     box-sizing: border-box;
@@ -961,4 +960,99 @@ i {
     margin: 2px 0px 0px;
     font-size: 16px;
     cursor: pointer;
+}
+.market-list-container{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.fixed-size-list{
+    position: relative;
+    height: 270px;
+    width: 320px;
+    overflow: auto;
+    will-change: transform;
+    direction: ltr;
+}
+.list-item-container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 24px;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.list-item{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    height: 100%;
+}
+.list-item-container .content{
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 12px;
+    color: rgb(132, 142, 156);
+    text-decoration: none;
+    cursor: pointer;
+}
+.list-item-container .content-item{
+    color: rgb(234, 236, 239);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: auto;
+    user-select: none;
+    font-size: 12px;
+}
+.favorite{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-right: 2px;
+    color: rgb(132, 142, 156);
+}
+.item-symbol-text{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(132, 142, 156);
+    
+}
+.item-symbol-ba {
+    color: rgb(234, 236, 239);
+}
+.market-multiple {
+    box-sizing: border-box;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 2px;
+    margin-left: 4px;
+    font-weight: 400;
+    color: rgb(240, 185, 11);
+    cursor: inherit;
+    background-color: rgb(60, 38, 1);
 }
