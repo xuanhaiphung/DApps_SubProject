@@ -734,3 +734,43 @@ i {
     cursor: pointer;
 }
 
+.orderbook-ticket{
+    display: flex;
+    padding: 1px 16px;
+    height: 33px;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+.status-green{
+    color: rgb(14, 203, 129);
+}
+.contract-price{
+    display: flex;
+    margin-right: 4px;
+    font-size: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.contract-price svg{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 16px;
+    fill: currentcolor;
+    width: 1em;
+    height: 1em;
+}
+.orderbook-ticket .mark-price{
+    flex: 1 1 0%;
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    color: rgb(132, 142, 156);
+}
+.orderbook-ticket .more{
+    color: rgb(132, 142, 156);
+    font-size: 12px;
+    text-decoration: none;
+}
