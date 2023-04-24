@@ -137,6 +137,16 @@ html {
 }
 .market{
     grid-area: market;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    padding-top: 16px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 26, 30);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6px;
 }
 .trades{
     grid-area: trades;
@@ -775,4 +785,63 @@ i {
 }
 .bid-light{
     color: rgb(14, 203, 129);
+}
+
+/* ---------------------------------------------------------------- */
+.market-header{
+    padding: 0px 16px;
+    overflow: hidden;
+}
+.market-header-up-container{
+    box-sizing: border-box;
+    margin: 4px 0px 12px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.market-header-up{
+    box-sizing: border-box;
+    margin: 4px 0px 0px;
+    min-width: 0px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 1.5;
+    height: 24px;
+    flex: 1 1 0%;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(43, 49, 57);
+    position: static;
+}
+.market-header-up .icon-search{
+    margin-left: 6px;
+    margin-top: 6px;
+    flex-shrink: 0;
+    margin-right: 4px;
+    font-size: 14px;
+}
+.market svg{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(94, 102, 115);
+    font-size: 20px;
+    fill: rgb(94, 102, 115);
+    width: 1em;
+    height: 1em;
+}
+.market-header-up input{
+    font-size: 12px;
+    margin-top: -2px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: inherit;
+}
+.market-header-down{
+
 }
