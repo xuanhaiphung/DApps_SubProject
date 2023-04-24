@@ -917,3 +917,43 @@ i {
     color: rgb(61, 70, 83);
     background: rgb(22, 26, 30);
 }
+.market-tbheader{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    min-width: 0px;
+    display: flex;
+    color: rgb(132, 142, 156);
+}
+.market-tbheader .wrap-item{
+    display: flex;
+    flex: 5 1 0px;
+    justify-content: flex-start;
+    min-width: 120px;
+}
+
+.market-tbheader .item{
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+}
+.market-tbheader .item .text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.market-tbheader .item svg{
+    box-sizing: border-box;
+    margin: 6px 0px 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 10px;
+    fill: currentcolor;
+    transform: scale(1.6);
+    pointer-events: none;
+    flex: 0 0 auto;
+    width: 1em;
+    height: 1em;
+}
