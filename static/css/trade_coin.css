@@ -843,6 +843,76 @@ i {
     border: none;
     background-color: inherit;
 }
-.market-header-down{
+.market-name-coin{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    display: flex;
+}
+.market-name-coin .container{
+    white-space: nowrap;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    display: block;
+}
 
+.market-name-coin .star{
+    position: relative;
+    top: 2px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(132, 142, 156);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+}
+.market-name-coin .star svg{
+    color: currentcolor;
+    font-size: 14px;
+    fill: currentcolor;
+}
+.tabBtn{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(132, 142, 156);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+}
+.tabBtn.active{
+    color: rgb(240, 185, 11);
+}
+.right-arrow{
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    right: -1px;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    color: rgb(61, 70, 83);
+    background: rgb(22, 26, 30);
 }
