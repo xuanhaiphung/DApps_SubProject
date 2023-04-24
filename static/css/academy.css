@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 
-html body {
+body {
     font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
     font-family: BinancePlex, Arial, sans-serif!important;
@@ -218,7 +218,7 @@ html body {
 }
 
 .search_2:hover {
-    color:
+    color: rgb(252, 213, 53);
 }
 
 #item_login {
@@ -1595,4 +1595,230 @@ html body {
     width: 100%;
     height: 524.69px;
     background: rgb(24, 26, 32);
+}
+
+#blockchain_1 {
+    max-width: 1100px;
+    padding: 56px 16px;
+    margin: auto;
+}
+
+#check {
+    height: 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    grid-template-rows: auto;
+}
+
+#clone_check {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+    color: rgb(255, 255, 255);
+}
+
+#item_check {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+    display: grid;
+    gap: 32px;
+    grid-template-rows: auto;
+}
+
+#img_check img {
+    width: 224px;
+    height: 244px;
+}
+
+#text_check h2 {
+    margin-bottom: 16px;
+    color: rgb(230, 232, 234);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#text_check p {
+    color: rgb(230, 232, 234);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+#check_out {
+    align-items: center;
+    border: 1px solid rgb(43, 47, 54);
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+    white-space: nowrap;
+    outline: 0px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+}
+
+#clone_check_1 {
+    padding: 300px 40px 48px;
+    padding-top: 48px;
+    min-height: 250px;
+    border-radius: 16px;
+    background-color: rgb(43, 47, 54);
+    background-image: url(../img/academy/illus-crypto-quiz.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 263px;
+    color: rgb(255, 255, 255);
+}
+
+#item_check_1 {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#text_check_1 {
+    margin-left: 263px;
+    text-align: start;
+}
+
+#text_check_1 h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#text_check_1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(230, 232, 234);
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+#text_check_1 a {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(240, 185, 11);
+}
+
+#check_live {
+    align-items: center;
+    border: 0px solid transparent;
+    font-weight: 500;
+    outline: 0px;
+    font-size: 15px;
+    height: 40px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(248, 209, 47) 0%, rgb(240, 185, 11) 100%);
+    color: rgb(20, 21, 26);
+}
+
+#check_live:hover {
+    background-image: linear-gradient(rgb(252, 221, 97) 0%, rgb(252, 218, 109) 100%);
+    color: rgb(20, 21, 26);
+}
+
+#blockchain_2 {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    max-width: 1100px;
+    padding: 56px 16px;
+    margin: auto;
+}
+
+#item_glo {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 16px;
+    grid-template-rows: auto;
+}
+
+#text_number {
+    flex: 1 1 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 87.57px;
+}
+
+#number {
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    display: flex;
+}
+
+#number_292 {
+    font-weight: 400;
+    font-size: 80px;
+    color: rgb(240, 185, 11);
+    line-height: 72px;
+    margin-bottom: 24px;
+}
+
+#number_t {
+    font-weight: 400;
+    color: rgb(174, 180, 188);
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#search_3 {
+    padding: 24px 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-self: start;
+    width: auto;
+}
+
+#glo_input {
+    appearance: none;
+    background: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
+    display: block;
+    outline: 0px;
+    transition: border-color 150ms ease-in-out 0s;
+    width: 100%;
+    font-size: 16px;
+    height: 48px;
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(94, 102, 115);
+    border-radius: 0px;
+    padding-right: 0px;
+    padding-left: 44px;
+}
+
+#item_search {
+    max-width: 100%;
+    color: rgb(146, 154, 165);
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    top: 12px;
+    transition: color 150ms ease-in-out 0s;
+    width: 24px;
 }
