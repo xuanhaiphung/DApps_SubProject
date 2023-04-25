@@ -1910,8 +1910,9 @@ body {
 }
 
 #no_noise {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    margin-top: 45px;
+    padding-top: 65px;
+    padding-bottom: 65px;
     background-color: rgb(43, 47, 54);
 }
 
@@ -1926,4 +1927,77 @@ body {
     align-items: center;
     display: grid;
     grid-template-rows: auto;
+}
+
+#img_NN {
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_NN img {
+    max-width: 100%;
+    height: auto;
+}
+
+#text_NN {
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 8px;
+    text-align: start;
+    color: rgb(230, 232, 234);
+    font-weight: 600;
+}
+
+#get_NN {
+    font-weight: 400;
+    line-height: 1.45;
+    font-size: 24px;
+    text-align: start;
+    color: rgb(174, 180, 188);
+    margin-bottom: 24px;
+}
+
+#enter_email {
+    align-items: center;
+    display: flex;
+}
+
+#your_email {
+    flex: 1 1 0%;
+}
+
+#add_email {
+    appearance: none;
+    background: rgb(20, 21, 26);
+    border: 1px solid rgb(43, 47, 54);
+    border-radius: 8px;
+    color: rgb(230, 232, 234);
+    display: block;
+    outline: 0px;
+    transition: border-color 150ms ease-in-out 0s;
+    width: 95%;
+    font-size: 16px;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#submit_NN {
+    margin-left: 8px;
+    align-items: center;
+    border: 1px solid rgb(43, 47, 54);
+    border-radius: 4px;
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+    white-space: nowrap;
+    outline: 0px;
+    font-size: 16px;
+    height: 52px;
+    line-height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(20, 21, 26);
+    color: rgb(230, 232, 234);
 }
