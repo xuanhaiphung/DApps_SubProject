@@ -2001,3 +2001,75 @@ body {
     background-color: rgb(20, 21, 26);
     color: rgb(230, 232, 234);
 }
+
+#Terms_of_Service {
+    box-sizing: border-box;
+    margin: 8px 0px 0px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(183, 189, 198);
+    font-size: 14px;
+}
+
+#check_box {
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    min-width: 0px;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-inline: 0px 8px;
+}
+
+#item_check_box {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#check_box>svg {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid rgb(94, 102, 115);
+    border-radius: 2px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+    fill: transparent;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 24px;
+}
+
+#check_box>svg path {
+    fill: inherit;
+}
+
+#terms_OS {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    cursor: pointer;
+    color: rgb(240, 185, 11);
+}
+
+#text_TOS {
+    display: flex;
+    align-items: center;
+    color: rgb(230, 232, 234);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin-inline-start: 8px;
+}
