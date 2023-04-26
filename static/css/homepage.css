@@ -504,9 +504,10 @@ i {
 
 .content3-container {
     box-sizing: border-box;
-    margin: 0;
     padding: 40px 0;
     background-color: #181A20;
+    margin: 0;
+    min-width: 0;
 }
 
 .content3 {
@@ -720,6 +721,9 @@ a.crypto {
 .content5-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 
@@ -817,6 +821,9 @@ a.crypto {
 .content6-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .h1 {
@@ -942,6 +949,9 @@ a.crypto {
 .content7-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .content7 {
@@ -995,6 +1005,9 @@ a.crypto {
 .content8-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .content8-container .top {
@@ -1024,6 +1037,9 @@ a.crypto {
 .content9-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .content9-container .top {
@@ -1126,6 +1142,9 @@ a.crypto {
 .content10-container {
     padding: 80px 120px;
     background-color: #181A20;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .content10-container .h1 {
@@ -1183,6 +1202,9 @@ a.crypto {
     padding: 80px;
     background-color: #0B0E11;
     box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
 }
 
 .content11 {
