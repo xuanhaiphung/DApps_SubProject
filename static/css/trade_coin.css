@@ -980,15 +980,14 @@ i {
     direction: ltr;
 }
 .list-item-container{
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 0px;
     height: 24px;
     width: 100%;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    overflow-x: hidden;
+    
 }
 .list-item{
     box-sizing: border-box;
@@ -1021,6 +1020,7 @@ i {
     cursor: auto;
     user-select: none;
     font-size: 12px;
+    cursor: pointer;
 }
 .favorite{
     display: flex;
@@ -1055,4 +1055,10 @@ i {
     color: rgb(240, 185, 11);
     cursor: inherit;
     background-color: rgb(60, 38, 1);
+}
+.status-red{
+    color: rgb(246, 70, 93);
+}
+.status-normal{
+    color: rgb(183, 189, 198);
 }
