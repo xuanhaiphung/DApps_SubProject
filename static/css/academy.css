@@ -2229,3 +2229,22 @@ body {
     display: inline-block;
     margin-right: 0px;
 }
+
+#senni {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 56px;
+    height: 56px;
+    display: block;
+    padding: 4px;
+    position: fixed;
+    right: 24px;
+    bottom: 16px;
+    cursor: pointer;
+    z-index: 998;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
