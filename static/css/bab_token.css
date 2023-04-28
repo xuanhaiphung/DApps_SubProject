@@ -567,6 +567,10 @@ i {
     margin-bottom: 26px;
 }
 
+#icon_disc a {
+    text-decoration: none;
+}
+
 .icon {
     margin-right: 37px;
     color: black;
@@ -586,6 +590,10 @@ i {
 
 .icon:hover {
     background-color: rgb(255, 255, 255);
+}
+
+.clone_icon a {
+    color: rgba(195, 195, 195, 0.696);
 }
 
 .clone_icon a i {
