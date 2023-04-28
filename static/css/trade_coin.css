@@ -150,7 +150,63 @@ html {
 }
 .trades{
     grid-area: trades;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0 16px 16px 16px;
+    background-color: rgb(22, 26, 30);
+    z-index: auto;
+    position: relative;
 }
+.trades-container{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.trades-header{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    height: 40px;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+}
+.trades-header div{
+    box-sizing: border-box;
+    margin: 0px;
+    cursor: pointer;
+    min-width: auto;
+}
+.trades-header .market-trades{
+    color: rgb(240, 185, 11);
+    border-bottom: none;
+    font-weight: 500;
+    margin: 0px 16px 0px 0px;
+    min-width: 0px;
+    padding: 16px 1px 10px;
+    height: 100%;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 14px;
+}
+
 .marketActivity{
     grid-area: marketActivity;
 }
