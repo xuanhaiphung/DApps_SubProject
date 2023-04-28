@@ -206,7 +206,16 @@ html {
     user-select: none;
     font-size: 14px;
 }
-
+.trades-header .my-trades{
+    margin: 0px 16px 0px 24px;
+    min-width: 0px;
+    padding: 16px 1px 10px;
+    height: 100%;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 14px;
+    color: rgb(132, 142, 156);
+}
 .marketActivity{
     grid-area: marketActivity;
 }
