@@ -142,16 +142,21 @@ html {
     justify-content: space-between;
     background-color: rgb(22, 26, 30);
 }
-.chart-header .hd-left, .hd-right{
+.chart-header .hd{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: left;
     flex-direction: row;
 }
-.hd-left-item{
+.hd-left{
+    justify-content: start;
+}
+.hd-right{
+    justify-content: end;
+}
+.hd-item{
     box-sizing: border-box;
-    margin: 0px 8px 0px 0px;
+    margin-right: 8px;
     min-width: 0px;
     display: flex;
     -webkit-box-align: center;
@@ -165,6 +170,8 @@ html {
     padding: 4px;
     border-radius: 2px;
 }
+
+
 .chart svg{
     font-size: 20px;
     fill: currentcolor;
@@ -172,6 +179,12 @@ html {
     transition: transform 0.2s ease 0s, color 0.2s ease 0s;
     width: 1em;
     height: 1em;
+}
+.hd-right .hd-item svg{
+    color: rgb(61, 70, 83);
+}
+.hd-right .hd-item{
+    margin: 0 0 0 8px;
 }
 .orderform{
     grid-area: orderform;
