@@ -170,8 +170,6 @@ html {
     padding: 4px;
     border-radius: 2px;
 }
-
-
 .chart svg{
     font-size: 20px;
     fill: currentcolor;
@@ -185,6 +183,9 @@ html {
 }
 .hd-right .hd-item{
     margin: 0 0 0 8px;
+}
+.status-orange{
+    color: rgb(240, 185, 11);
 }
 .orderform{
     grid-area: orderform;
