@@ -159,6 +159,7 @@ html {
     background-color: rgb(22, 26, 30);
     z-index: auto;
     position: relative;
+    overflow: hidden;
 }
 .trades-container{
     box-sizing: border-box;
