@@ -165,6 +165,14 @@ html {
     padding: 4px;
     border-radius: 2px;
 }
+.chart svg{
+    font-size: 20px;
+    fill: currentcolor;
+    color: rgb(132, 142, 156);
+    transition: transform 0.2s ease 0s, color 0.2s ease 0s;
+    width: 1em;
+    height: 1em;
+}
 .orderform{
     grid-area: orderform;
 }
