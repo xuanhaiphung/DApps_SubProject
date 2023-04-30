@@ -1125,8 +1125,12 @@ i {
 .status-red{
     color: rgb(246, 70, 93);
 }
+.status-normal{
+    color: rgb(183, 189, 198);
+}
 .text-normal{
     cursor: pointer;
     font-size: 12px;
     font-weight: 400;
+
 }
