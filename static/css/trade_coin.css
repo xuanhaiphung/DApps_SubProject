@@ -131,6 +131,39 @@ html {
 }
 .chart{
     grid-area: chart;
+    display: flex;
+    flex-direction: column;
+}
+.chart-header{
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 26, 30);
+}
+.chart-header .hd-left, .hd-right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+}
+.hd-left-item{
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(132, 142, 156);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px;
+    border-radius: 2px;
 }
 .orderform{
     grid-area: orderform;
