@@ -61,6 +61,7 @@ body {
     background-color: rgb(20, 21, 26);
     overflow-x: hidden !important;
 }
+
 html {
     height: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -76,12 +77,13 @@ html {
     min-height: 100vh;
 }
 
-.trade_coin{
+.trade_coin {
     box-sizing: border-box;
     min-width: 0;
     margin: 0;
 }
-.grid-container{
+
+.grid-container {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -89,19 +91,20 @@ html {
     display: grid;
     gap: 1px;
     grid-template:
-    "header header header header header" minmax(64px, auto)
-    "left subHeader subHeader market right" 68px
-    "left orderbook chart market right" 320px
-    "left orderbook chart trades right" 160px
-    "left orderbook orderform trades right" 200px
-    "left orderbook orderform marketActivity right" 150px
-    "left basictable basictable basictable right" 285px
-    "footer footer footer footer footer" 24px / 1fr minmax(253px, 320px) minmax(510px, 880px) minmax(253px, 320px) 1fr;
+        "header header header header header" minmax(64px, auto) "left subHeader subHeader market right" 68px
+        "left orderbook chart market right" 320px
+        "left orderbook chart trades right" 160px
+        "left orderbook orderform trades right" 200px
+        "left orderbook orderform marketActivity right" 150px
+        "left basictable basictable basictable right" 285px
+        "footer footer footer footer footer" 24px / 1fr minmax(253px, 320px) minmax(510px, 880px) minmax(253px, 320px) 1fr;
 }
-.header{
+
+.header {
     grid-area: header;
 }
-.subHeader{
+
+.subHeader {
     grid-area: subHeader;
     box-sizing: border-box;
     margin: 0px;
@@ -114,7 +117,8 @@ html {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.orderbook{
+
+.orderbook {
     grid-area: orderbook;
     box-sizing: border-box;
     margin: 0px;
@@ -129,69 +133,18 @@ html {
     flex: 1 1 0%;
     flex-direction: column;
 }
-.chart{
+
+.chart {
     grid-area: chart;
     display: flex;
     flex-direction: column;
 }
-.chart-header{
-    height: 40px;
-    padding: 0 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(22, 26, 30);
-    border-bottom: 1px solid rgb(37, 41, 48);
-}
-.chart-header .hd{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row;
-}
-.hd-left{
-    justify-content: start;
-}
-.hd-right{
-    justify-content: end;
-}
-.hd-item{
-    box-sizing: border-box;
-    margin-right: 8px;
-    min-width: 0px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    color: rgb(132, 142, 156);
-    cursor: pointer;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 4px;
-    border-radius: 2px;
-}
-.chart svg{
-    font-size: 20px;
-    fill: currentcolor;
-    color: rgb(132, 142, 156);
-    transition: transform 0.2s ease 0s, color 0.2s ease 0s;
-    width: 1em;
-    height: 1em;
-}
-.hd-right .hd-item svg{
-    color: rgb(61, 70, 83);
-}
-.hd-right .hd-item{
-    margin: 0 0 0 8px;
-}
-.status-orange{
-    color: rgb(240, 185, 11);
-}
-.orderform{
+
+.orderform {
     grid-area: orderform;
 }
-.market{
+
+.market {
     grid-area: market;
     box-sizing: border-box;
     margin: 0px;
@@ -204,7 +157,8 @@ html {
     flex-direction: column;
     padding-bottom: 6px;
 }
-.trades{
+
+.trades {
     grid-area: trades;
     box-sizing: border-box;
     margin: 0px;
@@ -217,7 +171,8 @@ html {
     position: relative;
     overflow: hidden;
 }
-.trades-container{
+
+.trades-container {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -227,7 +182,8 @@ html {
     flex-direction: column;
     position: relative;
 }
-.trades-header{
+
+.trades-header {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -245,13 +201,15 @@ html {
     background-color: transparent;
     width: 100%;
 }
-.trades-header div{
+
+.trades-header div {
     box-sizing: border-box;
     margin: 0px;
     cursor: pointer;
     min-width: auto;
 }
-.trades-header .market-trades{
+
+.trades-header .market-trades {
     color: rgb(240, 185, 11);
     border-bottom: none;
     font-weight: 500;
@@ -263,7 +221,8 @@ html {
     user-select: none;
     font-size: 14px;
 }
-.trades-header .my-trades{
+
+.trades-header .my-trades {
     margin: 0px 16px 0px 24px;
     min-width: 0px;
     padding: 16px 1px 10px;
@@ -273,15 +232,19 @@ html {
     font-size: 14px;
     color: rgb(132, 142, 156);
 }
-.marketActivity{
+
+.marketActivity {
     grid-area: marketActivity;
 }
-.basictable{
+
+.basictable {
     grid-area: basictable;
 }
-.footer{
+
+.footer {
     grid-area: footer;
 }
+
 a {
     text-decoration: none;
     color: rgb(234, 236, 239);
@@ -291,12 +254,13 @@ a {
     cursor: pointer;
 }
 
-.header-top{
+.header-top {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     background-color: rgb(22, 26, 30);
 }
+
 header {
     box-sizing: border-box;
     margin: 0;
@@ -395,9 +359,11 @@ header i {
     font-size: 14px;
     margin-left: 12px;
 }
+
 .flex-empty {
     flex: 1;
 }
+
 .flex-feature {
     display: flex;
     justify-content: center;
@@ -447,7 +413,7 @@ i {
     cursor: none;
 }
 
-.subHeader-flex{
+.subHeader-flex {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -463,7 +429,8 @@ i {
     flex-wrap: wrap;
     display: flex;
 }
-.subHeader-left{
+
+.subHeader-left {
     min-width: 0px;
     display: flex;
     box-sizing: border-box;
@@ -471,12 +438,12 @@ i {
     flex: 1 1 0%;
 }
 
-.subHeader-right{
+.subHeader-right {
     display: flex;
     align-items: center;
 }
 
-.subHeader-left .left{
+.subHeader-left .left {
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -485,7 +452,8 @@ i {
     margin-right: 0px;
     flex: 0 0 auto;
 }
-.children-container{
+
+.children-container {
     display: flex;
     flex: 1 1 0%;
     margin: 0px;
@@ -494,7 +462,7 @@ i {
     height: 48px;
     border-right-width: 1px;
     box-sizing: border-box;
-    
+
     min-width: 0px;
     display: flex;
     flex-direction: column;
@@ -503,7 +471,8 @@ i {
     justify-content: space-around;
     border-right: 1px solid rgb(37, 41, 48);
 }
-.coin-item{
+
+.coin-item {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -512,7 +481,8 @@ i {
     height: 30px;
     flex-wrap: nowrap;
 }
-.coin-item .coin-title{
+
+.coin-item .coin-title {
     box-sizing: border-box;
     margin: 0px 4px 0px 0px;
     min-width: 0px;
@@ -520,7 +490,8 @@ i {
     font-size: 20px;
     font-weight: 500;
 }
-.coin-item .btn-pow{
+
+.coin-item .btn-pow {
     box-sizing: border-box;
     margin: 0px 0px 0px 4px;
     min-width: 0px;
@@ -536,7 +507,8 @@ i {
     cursor: pointer;
     display: inline-block;
 }
-.sub-coin-item{
+
+.sub-coin-item {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -544,7 +516,8 @@ i {
     line-height: 17px;
     font-size: 12px;
 }
-.sub-coin-item svg{
+
+.sub-coin-item svg {
     box-sizing: border-box;
     margin: 0px 4px 0px 0px;
     min-width: 0px;
@@ -554,7 +527,8 @@ i {
     width: 1em;
     height: 1em;
 }
-.subHeader a{
+
+.subHeader a {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -563,23 +537,27 @@ i {
     line-height: 17px;
     font-size: 12px;
 }
-.children-container2{
+
+.children-container2 {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
 }
-.children-container2 .up{
+
+.children-container2 .up {
     font-size: 16px;
     display: flex;
     align-items: center;
     color: rgb(14, 203, 129);
 }
-.children-container2 .down{
+
+.children-container2 .down {
     font-size: 12px;
     color: rgb(234, 236, 239);
     line-height: inherit;
 }
-.subHeader-left .right{
+
+.subHeader-left .right {
     flex: 1 1 0%;
     flex-flow: row nowrap;
     display: flex;
@@ -592,7 +570,8 @@ i {
     overflow: hidden;
 
 }
-.subHeader-left .right .child-right{
+
+.subHeader-left .right .child-right {
     display: flex;
     flex-flow: row nowrap;
     box-sizing: border-box;
@@ -605,11 +584,13 @@ i {
     white-space: nowrap;
     overflow: auto hidden;
 }
-.child-right-item{
+
+.child-right-item {
     display: inline-block;
     padding-right: 1.4vw;
 }
-.child-right-item .up{
+
+.child-right-item .up {
     font-size: 12px;
     margin-right: 0px;
     margin-bottom: 2px;
@@ -622,12 +603,14 @@ i {
     overflow: hidden;
     white-space: nowrap;
 }
-.child-right-item .down{
+
+.child-right-item .down {
     display: flex;
     font-size: 12px;
     color: rgb(234, 236, 239);
 }
-.guide-left{
+
+.guide-left {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -636,7 +619,8 @@ i {
     font-size: 12px;
     cursor: pointer;
 }
-.guide-left svg{
+
+.guide-left svg {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -646,7 +630,8 @@ i {
     width: 1em;
     height: 1em;
 }
-.orderbook >div:not(:hover){
+
+.orderbook>div:not(:hover) {
     overflow: hidden;
 }
 
@@ -659,11 +644,13 @@ i {
     margin-bottom: 8px;
     position: relative;
 }
-.bookleft{
+
+.bookleft {
     display: flex;
     align-items: center;
 }
-.bookleft button{
+
+.bookleft button {
     height: 24px;
     flex: initial;
     margin: 0px 4px 0px 0px;
@@ -696,7 +683,8 @@ i {
     opacity: 0.5;
     flex: 1 1 0%;
 }
-.bookleft svg{
+
+.bookleft svg {
     color: rgb(132, 142, 156);
     box-sizing: border-box;
     margin: 0px;
@@ -707,7 +695,7 @@ i {
     height: 1em;
 }
 
-.bookright{
+.bookright {
     display: flex;
     -webkit-box-pack: end;
     justify-content: flex-end;
@@ -722,16 +710,18 @@ i {
     -webkit-box-pack: initial;
     justify-content: initial;
 }
-.bookright-item{
+
+.bookright-item {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     position: relative;
     display: inline-block;
-    outline: none; 
+    outline: none;
     display: flex;
 }
-.bookright-item .child{
+
+.bookright-item .child {
     height: 24px;
     padding-left: 8px;
     width: auto;
@@ -751,7 +741,8 @@ i {
     font-size: 12px;
     margin-right: -4px;
 }
-.bookright-item svg{
+
+.bookright-item svg {
     box-sizing: border-box;
     margin: 0px 0px 0px 5px;
     min-width: 0px;
@@ -761,7 +752,8 @@ i {
     width: 1em;
     height: 1em;
 }
-.child-right{
+
+.child-right {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -779,12 +771,14 @@ i {
     min-width: 24px;
     box-sizing: border-box;
 }
-.orderbook-tbheader{
+
+.orderbook-tbheader {
     display: flex;
     flex-direction: column;
     margin: 0px 16px 6px 16px;
 }
-.orderbook-tbheader .content{
+
+.orderbook-tbheader .content {
     display: flex;
     height: 20px;
     -webkit-box-pack: justify;
@@ -794,17 +788,20 @@ i {
     font-size: 12px;
     color: rgb(132, 142, 156);
 }
-.orderbook-tbheader .item{
+
+.orderbook-tbheader .item {
     display: block;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.orderlist-container{
+
+.orderlist-container {
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
 }
+
 .resize-triggers {
     content: " ";
     display: block;
@@ -819,7 +816,8 @@ i {
     visibility: hidden;
     opacity: 0;
 }
-.orderbook-row-container{
+
+.orderbook-row-container {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -829,7 +827,8 @@ i {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-.row-container{
+
+.row-container {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -840,7 +839,8 @@ i {
     animation: 0.3s ease-out 0s 1 normal none running none;
     overflow: hidden
 }
-.row-content{
+
+.row-content {
     padding-left: 16px !important;
     padding-right: 16px !important;
     line-height: 20px;
@@ -852,10 +852,12 @@ i {
     line-height: 22px;
     cursor: pointer;
 }
-.ask-light{
+
+.ask-light {
     color: rgb(246, 70, 93);
 }
-.row-content .text{
+
+.row-content .text {
     margin-left: 4px;
     font-size: 12px;
     margin-left: 0px;
@@ -865,7 +867,7 @@ i {
     cursor: pointer;
 }
 
-.orderbook-ticket{
+.orderbook-ticket {
     display: flex;
     padding: 1px 16px;
     height: 33px;
@@ -873,17 +875,20 @@ i {
     align-items: center;
     overflow: hidden;
 }
-.status-green{
+
+.status-green {
     color: rgb(14, 203, 129);
 }
-.contract-price{
+
+.contract-price {
     display: flex;
     margin-right: 4px;
     font-size: 20px;
     -webkit-box-align: center;
     align-items: center;
 }
-.contract-price svg{
+
+.contract-price svg {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -893,27 +898,31 @@ i {
     width: 1em;
     height: 1em;
 }
-.orderbook-ticket .mark-price{
+
+.orderbook-ticket .mark-price {
     flex: 1 1 0%;
     display: inline-block;
     font-size: 12px;
     text-align: left;
     color: rgb(132, 142, 156);
 }
-.orderbook-ticket .more{
+
+.orderbook-ticket .more {
     color: rgb(132, 142, 156);
     font-size: 12px;
     text-decoration: none;
 }
-.bid-light{
+
+.bid-light {
     color: rgb(14, 203, 129);
 }
 
 /* ---------------------------------------------------------------- */
-.market-header{
+.market-header {
     padding: 0px 16px;
 }
-.market-header-up-container{
+
+.market-header-up-container {
     box-sizing: border-box;
     margin: 4px 0px 12px;
     min-width: 0px;
@@ -923,7 +932,8 @@ i {
     -webkit-box-pack: justify;
     justify-content: space-between;
 }
-.market-header-up{
+
+.market-header-up {
     box-sizing: border-box;
     margin: 4px 0px 0px;
     min-width: 0px;
@@ -939,14 +949,16 @@ i {
     background-color: rgb(43, 49, 57);
     position: static;
 }
-.market-header-up .icon-search{
+
+.market-header-up .icon-search {
     margin-left: 6px;
     margin-top: 6px;
     flex-shrink: 0;
     margin-right: 4px;
     font-size: 14px;
 }
-.market svg{
+
+.market svg {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -956,7 +968,8 @@ i {
     width: 1em;
     height: 1em;
 }
-.market-header-up input{
+
+.market-header-up input {
     font-size: 12px;
     height: 18px;
     width: 100%;
@@ -964,14 +977,16 @@ i {
     border: none;
     background-color: inherit;
 }
-.market-name-coin{
+
+.market-name-coin {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     position: relative;
     display: flex;
 }
-.market-name-coin .container{
+
+.market-name-coin .container {
     white-space: nowrap;
     overflow: auto;
     box-sizing: border-box;
@@ -984,7 +999,7 @@ i {
     display: block;
 }
 
-.market-name-coin .star{
+.market-name-coin .star {
     position: relative;
     top: 2px;
     box-sizing: border-box;
@@ -1000,13 +1015,14 @@ i {
     padding: 4px;
     border-radius: 2px;
 }
-.market-name-coin .star svg{
+
+.market-name-coin .star svg {
     color: currentcolor;
     font-size: 14px;
     fill: currentcolor;
 }
 
-.tabBtn{
+.tabBtn {
     display: inline-block;
     box-sizing: border-box;
     margin: 0px;
@@ -1021,10 +1037,12 @@ i {
     padding: 4px;
     border-radius: 2px;
 }
-.tabBtn.active{
+
+.tabBtn.active {
     color: rgb(240, 185, 11);
 }
-.right-arrow{
+
+.right-arrow {
     position: absolute;
     cursor: pointer;
     width: 24px;
@@ -1038,7 +1056,8 @@ i {
     color: rgb(61, 70, 83);
     background: rgb(22, 26, 30);
 }
-.market-tbheader{
+
+.market-tbheader {
     height: 20px;
     line-height: 20px;
     margin-top: 8px;
@@ -1047,25 +1066,28 @@ i {
     display: flex;
     color: rgb(132, 142, 156);
 }
-.market-tbheader .wrap-item{
+
+.market-tbheader .wrap-item {
     display: flex;
     flex: 5 1 0px;
     justify-content: flex-start;
     min-width: 120px;
 }
 
-.market-tbheader .item{
+.market-tbheader .item {
     display: flex;
     cursor: pointer;
     overflow: hidden;
 }
-.market-tbheader .item .text{
+
+.market-tbheader .item .text {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     font-size: 12px;
 }
-.market-tbheader .item svg{
+
+.market-tbheader .item svg {
     box-sizing: border-box;
     margin: 6px 0px 0px;
     min-width: 0px;
@@ -1078,12 +1100,14 @@ i {
     width: 1em;
     height: 1em;
 }
-.market-tbheader .svg{
+
+.market-tbheader .svg {
     margin: 2px 0px 0px;
     font-size: 16px;
     cursor: pointer;
 }
-.market-list-container{
+
+.market-list-container {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -1093,7 +1117,8 @@ i {
     -webkit-box-flex: 1;
     flex-grow: 1;
 }
-.fixed-size-list{
+
+.fixed-size-list {
     position: relative;
     height: 270px;
     width: 320px;
@@ -1101,7 +1126,8 @@ i {
     will-change: transform;
     direction: ltr;
 }
-.list-item-container{
+
+.list-item-container {
     position: relative;
     left: 0px;
     top: 0px;
@@ -1109,9 +1135,10 @@ i {
     width: 100%;
     display: flex;
     align-items: center;
-    
+
 }
-.list-item{
+
+.list-item {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -1123,7 +1150,8 @@ i {
     flex-direction: column;
     height: 100%;
 }
-.list-item-container .content{
+
+.list-item-container .content {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
@@ -1134,7 +1162,8 @@ i {
     text-decoration: none;
     cursor: pointer;
 }
-.list-item-container .content-item{
+
+.list-item-container .content-item {
     color: rgb(234, 236, 239);
     display: flex;
     -webkit-box-align: center;
@@ -1144,14 +1173,16 @@ i {
     font-size: 12px;
     cursor: pointer;
 }
-.favorite{
+
+.favorite {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     padding-right: 2px;
     color: rgb(132, 142, 156);
 }
-.item-symbol-text{
+
+.item-symbol-text {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -1159,11 +1190,13 @@ i {
     font-size: 12px;
     font-weight: 400;
     color: rgb(132, 142, 156);
-    
+
 }
+
 .item-symbol-ba {
     color: rgb(234, 236, 239);
 }
+
 .market-multiple {
     box-sizing: border-box;
     padding-left: 4px;
@@ -1178,15 +1211,103 @@ i {
     cursor: inherit;
     background-color: rgb(60, 38, 1);
 }
-.status-red{
+
+.status-red {
     color: rgb(246, 70, 93);
 }
-.status-normal{
+
+.status-normal {
     color: rgb(183, 189, 198);
 }
-.text-normal{
+
+.text-normal {
     cursor: pointer;
     font-size: 12px;
     font-weight: 400;
 
+}
+
+.chart-header {
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 26, 30);
+    border-bottom: 1px solid rgb(37, 41, 48);
+}
+
+.chart-header .hd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hd-left {
+    justify-content: start;
+}
+
+.hd-right {
+    justify-content: end;
+}
+
+.hd-item {
+    box-sizing: border-box;
+    margin-right: 8px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(132, 142, 156);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.chart svg {
+    font-size: 20px;
+    fill: currentcolor;
+    color: rgb(132, 142, 156);
+    transition: transform 0.2s ease 0s, color 0.2s ease 0s;
+    width: 1em;
+    height: 1em;
+}
+
+.hd-right .hd-item svg {
+    color: rgb(61, 70, 83);
+}
+
+.hd-right .hd-item {
+    margin: 0 0 0 8px;
+}
+
+.status-orange {
+    color: rgb(240, 185, 11);
+}
+
+.chart-candle-flex {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(24, 26, 30);
+    position: relative;
+    line-height: 1;
+    z-index: 0;
+    user-select: none;
+    background-image: url(../img/trade_coin/tradingView.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.chart img{
+    height: 100%;
+    width: 100%;
+    cursor: crosshair;
 }
