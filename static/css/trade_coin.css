@@ -1345,3 +1345,10 @@ i {
     width: 1em;
     height: 1em;
 }
+.invite-left a{
+    color: rgb(240, 185, 11);
+}
+.invite-right svg{
+    color: rgb(132, 142, 156);
+    fill: rgb(132, 142, 156);
+}
