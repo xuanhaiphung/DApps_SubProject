@@ -219,6 +219,16 @@ body {
     padding: 16px;
 }
 
+.drop_clone_1 {
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 16px;
+}
+
 .drop_clone:hover {
     background-color: rgba(94, 94, 94, 0.164);
 }
@@ -246,6 +256,10 @@ body {
     color: rgb(132, 142, 156);
 }
 
+.drop_item_right {
+    width: 325px;
+}
+
 #start_here a {
     height: 32px;
     margin-left: 8px;
@@ -265,6 +279,39 @@ body {
 #start_here a:hover {
     box-shadow: inset 0 0 0 77px rgba(126, 124, 113, 0.454);
     background-color: rgb(14, 203, 129);
+}
+
+.drop_dots {
+    display: flex;
+    align-items: center;
+}
+
+.logo_Articles {
+    border-radius: 50%;
+    background-color: rgb(43, 49, 57);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 16px 0px 0px;
+}
+
+.text_popular {
+    margin: 0px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(94, 102, 115);
+    padding: 5px 16px;
+}
+
+.dots {
+    padding: 0px 16px;
+}
+
+.text_dots {
+    color: white;
 }
 
 #conten_right {
