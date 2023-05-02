@@ -11,6 +11,10 @@ html {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+a {
+    text-decoration: none;
+}
+
 #product {
     width: 100%;
     height: 2083.45px;
@@ -148,7 +152,8 @@ html {
 }
 
 .dropdown_body {
-    border-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding: 16px 16px;
     display: flex;
     box-sizing: border-box;
@@ -162,16 +167,19 @@ html {
     display: block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    inset: 100% auto auto;
-    padding: 8px 0px 0px 0px;
+.node_size {
     transform: translate(-54px, 0px);
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     z-index: 1100;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    inset: 100% auto auto;
+    padding: 8px 0px 0px 0px;
 }
 
 .drop_clone {
@@ -243,6 +251,92 @@ html {
     margin-left: 5px;
     font-size: 11px;
     margin-bottom: 3px;
+}
+
+.coin_item {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.coin_body {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.img_coin {
+    width: 20px;
+}
+
+.pay_w {
+    padding: 15px;
+}
+
+.display_block {
+    display: block;
+}
+
+.coin_body:hover {
+    background-color: rgba(94, 94, 94, 0.164);
+}
+
+.rota {
+    transform: rotate(270deg);
+    font-size: 12px;
+}
+
+.node_pading {
+    padding: 0px;
+}
+
+.margin {
+    margin: 0px 16px 0px 16px;
+}
+
+.node_margin {
+    margin: 0px;
+}
+
+.node_space {
+    display: flex;
+    justify-content: start;
+}
+
+.arrow svg {
+    color: rgb(240, 185, 11);
+    width: 16px;
+    height: 18px;
+    margin-right: 25px;
+    fill: currentColor;
+    transform: translateX(-5px);
+}
+
+.arrow {
+    position: absolute;
+    width: 50px;
+    right: 20px;
+    visibility: hidden;
+}
+
+.drop_clone:hover .arrow {
+    visibility: visible;
+    display: block;
+}
+
+.arrow svg path {
+    transition: transform 0.5s ease-out;
+}
+
+.drop_clone:hover .arrow svg path {
+    transform: translateX(calc(100% - 18px + 5px));
 }
 
 .vnd {

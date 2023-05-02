@@ -176,11 +176,6 @@ body {
     display: block;
 }
 
-.dropdown_body {
-    padding: 16px 16px;
-    display: flex;
-}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -207,6 +202,8 @@ body {
     border-radius: 8px;
     box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px;
     position: relative;
+    padding: 16px 16px;
+    display: flex;
 }
 
 .drop_clone {
