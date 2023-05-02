@@ -256,8 +256,12 @@ body {
     color: rgb(132, 142, 156);
 }
 
+.drop_item_left {
+    width: 320px;
+}
+
 .drop_item_right {
-    width: 325px;
+    width: 320px;
 }
 
 #start_here a {
@@ -312,6 +316,7 @@ body {
 
 .text_dots {
     color: white;
+    text-overflow: ellipsis;
 }
 
 #conten_right {
