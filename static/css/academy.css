@@ -301,6 +301,12 @@ body {
     margin: 0px 16px 0px 0px;
 }
 
+.drop_clone_2 {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+}
+
 .text_popular {
     margin: 0px;
     font-size: 14px;
@@ -317,6 +323,14 @@ body {
 .text_dots {
     color: white;
     text-overflow: ellipsis;
+}
+
+.node_pading {
+    padding: 0px;
+}
+
+.node_flex {
+    display: block;
 }
 
 #conten_right {
