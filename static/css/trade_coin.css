@@ -1372,4 +1372,22 @@ i {
     flex: 1 1 0%;
     font-weight: 600;
     margin-left: 4px;
+    justify-content: space-between;
+}
+.marketActivity-header svg{
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    width: 1em;
+    height: 1em;
+}
+.marketActivity-header .right{
+    display: flex;
+    color: rgb(94, 102, 115);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.marketActivity-header svg:hover{
+    background-color: rgb(240, 185, 11);
 }
