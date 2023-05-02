@@ -236,6 +236,7 @@ html {
 
 .marketActivity {
     grid-area: marketActivity;
+    background-color: rgb(22, 26, 30);
 }
 
 .basictable {
@@ -1351,4 +1352,24 @@ i {
 .invite-right svg{
     color: rgb(132, 142, 156);
     fill: rgb(132, 142, 156);
+}
+
+.marketActivity-header{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 16px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(234, 236, 239);
+    align-items: center;
+    font-weight: 600;
+}
+.marketActivity-header a{
+    color: rgb(240, 185, 11);
+    font-size: 12px;
+    flex: 1 1 0%;
+    font-weight: 600;
+    margin-left: 4px;
 }
