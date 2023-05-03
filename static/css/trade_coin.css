@@ -1395,7 +1395,9 @@ i {
     padding: 4px 16px 0 16px;
     position: relative;
     transition: height 0.3s ease 0s;
-    height: 120px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
 }
 .MA-body-header{
     margin-bottom: 8px;
