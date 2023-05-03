@@ -1409,3 +1409,22 @@ i {
     cursor: pointer;
     color: rgb(132, 142, 156);
 }
+.marketActivity-body a{
+    display: flex;
+    height: 41px;
+    border-bottom: 1px solid rgb(31, 33, 36);
+    align-items: center;
+    justify-content: space-between;
+}
+.marketActivity-body .item{
+    box-sizing: border-box;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    font-size: 12px;
+    margin: 0;
+    line-height: normal;
+}
+.marketActivity-body span{
+    color: rgb(234, 236, 239);
+    box-sizing: border-box;
+}
