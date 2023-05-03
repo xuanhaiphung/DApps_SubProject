@@ -1330,9 +1330,6 @@ i {
     line-height: 20px;
     justify-content: space-between;
 }
-.orderform-invite .invite-left{
-
-}
 .orderform svg{
     box-sizing: border-box;
     margin: 0px 10px 0px 0px;
@@ -1353,7 +1350,23 @@ i {
     color: rgb(132, 142, 156);
     fill: rgb(132, 142, 156);
 }
-
+.orderform-bHeader{
+    display: flex;
+    height: 48px;
+    background-color: rgb(22, 26, 30);
+}
+.orderform-bItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(132, 142, 156);
+    /* background-color: rgb(22, 26, 30); */
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid rgb(43, 49, 58);
+    padding: 20px 45px;
+}
+/* ------------------------------------------------ */
 .marketActivity-header{
     box-sizing: border-box;
     display: flex;
@@ -1455,3 +1468,4 @@ i {
     width: 1em;
     height: 1em;
 }
+
