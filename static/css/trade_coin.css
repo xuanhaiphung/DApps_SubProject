@@ -1389,6 +1389,12 @@ i {
     width: 1em;
     height: 1em;
 }
+.orderform-bItem.active{
+    border-top: 2px solid rgb(240, 185, 11);
+    border-bottom: 1px solid transparent;
+    color: rgb(234, 236, 239);
+    background-color: rgb(30, 32, 38);
+}
 /* ------------------------------------------------ */
 .marketActivity-header{
     box-sizing: border-box;
