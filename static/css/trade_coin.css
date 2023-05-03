@@ -1428,3 +1428,28 @@ i {
     color: rgb(234, 236, 239);
     box-sizing: border-box;
 }
+.marketActivity-body .thirdCol{
+    display: flex;
+    position: relative;
+    width: 54px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.marketActivity-body .thirdCol div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(246, 70, 93);
+    border-radius: 4px;
+    opacity: 0.15;
+}
+.marketActivity-body .thirdCol svg{
+    color: rgb(14, 203, 129);
+    fill: rgb(14, 203, 129);
+    font-size: 32px;
+    width: 1em;
+    height: 1em;
+}
