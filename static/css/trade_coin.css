@@ -1500,6 +1500,17 @@ i {
     opacity: 1;
     border: none !important;
 }
+
+.form-login{
+    display: flex;
+    align-items: center;
+    color: rgb(234, 236, 239);
+    justify-content: center;
+    font-size: 14px;
+    background-color: rgb(43, 49, 57);
+    border-radius: 4px;
+    height: 40px;
+}
 /* ------------------------------------------------ */
 .marketActivity-header{
     box-sizing: border-box;
