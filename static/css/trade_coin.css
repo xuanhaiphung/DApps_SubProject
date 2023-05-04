@@ -1446,8 +1446,6 @@ i {
 }
 .orderform .form-item{
     font-size: 12px;
-    display: flex;
-    align-items: center;
     flex: 1;
 }
 .iHead{
@@ -1456,6 +1454,51 @@ i {
 }
 .iHead a{ 
     font-size: 12px;
+}
+.orderform .form-price{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(43, 47, 54, 0.9);
+    border: 1px solid rgba(43, 47, 54, 0.9);
+    margin-bottom: 12px;
+}
+.form-price:hover{
+    border: 1px solid rgb(240, 185, 11);
+}
+.form-price-item{
+    display: inline-flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 1.6;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+.form-price-item div{
+    flex-shrink: 0;
+    margin-left: 8px;
+    min-width: 48px;
+    font-size: 14px;
+    color: rgb(183, 189, 198);
+}
+.form-price-item input{
+    color: rgb(234, 236, 239);
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    outline: none;
+    background-color: inherit;
+    opacity: 1;
+    border: none !important;
 }
 /* ------------------------------------------------ */
 .marketActivity-header{
