@@ -1484,7 +1484,7 @@ i {
     margin-left: 8px;
     min-width: 48px;
     font-size: 14px;
-    color: rgb(183, 189, 198);
+    color: rgb(132, 142, 156);
 }
 .form-price-item input{
     color: rgb(234, 236, 239);
@@ -1525,8 +1525,8 @@ i {
 }
 .bn-slide-container div:nth-child(2){
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
     transform: translateX(-50%) rotate(45deg);
     background-color: rgb(30, 35, 41);
     border-radius: 4px;
@@ -1534,7 +1534,7 @@ i {
     z-index: 20;
     cursor: grab;
     transition: box-shadow 0.2s ease 0s;
-    background-color: rgb(183, 189, 198);
+    border-color: rgb(183, 189, 198);
 }
 .bn-slide-container div:nth-child(n+3){
     box-sizing: content-box;
