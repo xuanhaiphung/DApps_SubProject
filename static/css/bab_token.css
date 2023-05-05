@@ -190,6 +190,14 @@ a {
     z-index: 1100;
 }
 
+.node_size_3 {
+    transform: translate(-310px, 0px);
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    z-index: 1100;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
