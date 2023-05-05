@@ -115,7 +115,6 @@ a {
 }
 
 .item_conten a svg {
-    width: 24px;
     height: 24px;
     margin: 11.5px 0px;
     color: rgb(224, 224, 224);
@@ -189,15 +188,11 @@ a {
     align-items: center;
     border-radius: 8px;
     cursor: pointer;
-    padding: 16px;
+    padding: 23px;
 }
 
-.drop_item_left {
-    width: 320px;
-}
-
-.drop_item_right {
-    width: 320px;
+.drop_item {
+    width: 370px;
 }
 
 .logo_drop {
@@ -217,7 +212,7 @@ a {
 }
 
 .head_1 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
@@ -230,7 +225,7 @@ a {
 
 .head_1_text {
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(132, 142, 156);
 }
 
@@ -313,16 +308,14 @@ a {
 .arrow svg {
     color: rgb(240, 185, 11);
     width: 16px;
-    height: 18px;
-    margin-right: 25px;
+    height: 16px;
     fill: currentColor;
     transform: translateX(-5px);
 }
 
 .arrow {
     position: absolute;
-    width: 50px;
-    right: 20px;
+    margin-left: 320px;
     visibility: hidden;
 }
 
