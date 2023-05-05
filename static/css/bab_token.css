@@ -168,34 +168,22 @@ a {
 
 .node_size {
     transform: translate(-54px, 0px);
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    z-index: 1100;
 }
 
 .node_size_1 {
     transform: translate(-140px, 0px);
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    z-index: 1100;
 }
 
 .node_size_2 {
     transform: translate(-209px, 0px);
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    z-index: 1100;
 }
 
 .node_size_3 {
     transform: translate(-310px, 0px);
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    z-index: 1100;
+}
+
+.node_size_4 {
+    transform: translate(-504px, 0px);
 }
 
 .dropdown-content {
