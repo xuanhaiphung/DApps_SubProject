@@ -425,8 +425,8 @@ i {
     display: flex;
     width: 100%;
     max-width: 1444px;
-    padding-left: 24px;
     padding-right: 32px;
+    background-color: rgb(30, 32, 38);
 }
 .down-left{
     box-sizing: border-box;
@@ -437,7 +437,7 @@ i {
 }
 .down-left a{
     display: flex;
-    flex: 33.333%;
+    flex: 1;
     font-size: 12px;
     line-height: 24px;
     padding: 0 24px;
@@ -445,6 +445,32 @@ i {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.header-down svg{
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(132, 142, 156);
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.close{
+    margin-left: 24px;
+    display: flex;
+    color: rgb(61, 70, 83);
+    align-items: center;
+    justify-content: center;
+}
+.close svg{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    width: 24px;
+    height: 24px;
 }
 /* ----------------------------------------- */
 .subHeader-flex {
