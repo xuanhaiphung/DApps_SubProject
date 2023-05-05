@@ -241,6 +241,11 @@ html {
 
 .basictable {
     grid-area: basictable;
+    background-color: rgb(22, 26, 30);
+    display: flex;
+    font-size: 14px;
+    padding: 0px 16px 16px;
+    flex-direction: column;
 }
 
 .footer {
@@ -1668,3 +1673,13 @@ i {
     height: 1em;
 }
 
+.basictable-header{
+    width: 100%;
+    display: flex;
+   
+}
+.basictable-header div{
+    margin-right: 24px;
+    padding: 16px 1px 10px;
+    color: rgb(132, 142, 156);
+}
