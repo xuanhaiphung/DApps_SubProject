@@ -200,15 +200,11 @@ a {
     min-width: 0px;
 }
 
-.logo_drop svg {
-    box-sizing: border-box;
+.logo_drop img {
     margin: 0px;
-    min-width: 0px;
-    color: currentcolor;
     width: 26px;
     height: 26px;
     font-size: 26px;
-    fill: currentcolor;
 }
 
 .head_1 {
