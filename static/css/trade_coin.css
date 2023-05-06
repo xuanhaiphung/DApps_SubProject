@@ -1803,3 +1803,6 @@ i {
     width: 1em;
     height: 1em;
 }
+.footer-right div:hover{
+    color: rgb(240, 185, 11);
+}
