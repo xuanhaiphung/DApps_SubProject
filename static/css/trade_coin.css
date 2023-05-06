@@ -250,6 +250,16 @@ html {
 
 .footer {
     grid-area: footer;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(22, 26, 30);
+    margin-top: -1px;
+    padding-left: 10px;
+    border: 1px solid rgb(37, 41, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 a {
@@ -1747,4 +1757,22 @@ i {
     align-items: center;
     color: rgb(234, 236, 239);
     padding: 20px 0px;
+}
+
+/* ---------------------------------- */
+.footer-left{
+    display: flex;
+    align-items: center;
+    width: 138px;
+}
+.footer-left svg{
+    width: 16;
+    height: 12;
+}
+.footer-left div{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 10px;
+    min-width: 0px;
+    color: rgb(14, 203, 129);
+    font-size: 12px;
 }
