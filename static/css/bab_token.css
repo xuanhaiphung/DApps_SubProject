@@ -255,6 +255,18 @@ a {
     font-size: 11px;
     margin-bottom: 3px;
 }
+.drop_clone_1 {
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 23px;
+}
+.node_display{
+    display: block;
+}
 
 .coin_item {
     width: 390px;
@@ -428,11 +440,12 @@ a {
     width: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .item_1 {
     color: white;
-    padding: 0 8px;
+    margin-bottom: 13px;
     height: 18px;
     display: flex;
     flex-direction: column;
@@ -491,7 +504,28 @@ a {
     margin: 0;
     color: #ffffff;
 }
-
+.node_width{
+    width: auto;
+}
+.text_down{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    max-width: 140px;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.text_down_1{
+    padding: 6px 12px;
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: yellow;
+    box-shadow: none;
+    white-space: nowrap;
+}
 #icon_menu p,
 i {
     cursor: pointer;
